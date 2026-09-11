@@ -1,0 +1,16 @@
+connection string
+has two formats: STANDARD and SRV
+
+STANDARD:
+mongodb://username:password@host:port/database
+
+SRV:
+mongodb+srv://
+Atlas deployments use srv format
+By using srv, it indicates to mongosh that the host name that follows corresponds to a DNS SRV record.
+No port needed, whereas in standard format, host:port format is used
+Also by using SRV, it sets TLS to true and connect to the DNS seed list
+
+default port for mdb is 27017
+we can also use a different port
+mongosh --port 27777

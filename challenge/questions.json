@@ -1,0 +1,5298 @@
+{
+  "atlas": {
+    "easy": [
+      {
+        "id": "atlas_easy_1",
+        "question": "What is MongoDB Atlas?",
+        "options": [
+          "A local MongoDB installation tool",
+          "A cloud-hosted MongoDB service",
+          "A MongoDB GUI client",
+          "A database migration tool"
+        ],
+        "correct": 1,
+        "explanation": "MongoDB Atlas is a fully-managed cloud database service that handles deployment, management, and scaling of MongoDB databases."
+      },
+      {
+        "id": "atlas_easy_2",
+        "question": "Which cloud providers does MongoDB Atlas support?",
+        "options": [
+          "Only AWS",
+          "Only Azure",
+          "AWS, Azure, and Google Cloud",
+          "Only Google Cloud"
+        ],
+        "correct": 2,
+        "explanation": "Atlas supports deployment on AWS, Microsoft Azure, and Google Cloud Platform."
+      },
+      {
+        "id": "atlas_easy_3",
+        "question": "What is the smallest cluster tier available in Atlas?",
+        "options": [
+          "M0 (Free Tier)",
+          "M2",
+          "M10",
+          "M5"
+        ],
+        "correct": 0,
+        "explanation": "M0 is the free tier cluster, perfect for learning and development."
+      },
+      {
+        "id": "atlas_easy_4",
+        "question": "What does Atlas handle automatically?",
+        "options": [
+          "Only backups",
+          "Only scaling",
+          "Backups, scaling, and patches",
+          "Only monitoring"
+        ],
+        "correct": 2,
+        "explanation": "Atlas automates backups, scaling, patching, and other operational tasks."
+      },
+      {
+        "id": "atlas_easy_5",
+        "question": "Can you create a free cluster in Atlas?",
+        "options": [
+          "No, all clusters require payment",
+          "Yes, M0 clusters are free forever",
+          "Yes, but only for 30 days",
+          "Only for students"
+        ],
+        "correct": 1,
+        "explanation": "Atlas offers M0 free tier clusters with 512MB storage that never expire."
+      },
+      {
+        "id": "atlas_easy_6",
+        "question": "What is Atlas Search?",
+        "options": [
+          "A tool to find clusters",
+          "Full-text search capabilities built on Apache Lucene",
+          "A query optimizer",
+          "A backup search feature"
+        ],
+        "correct": 1,
+        "explanation": "Atlas Search provides full-text search functionality using Apache Lucene technology."
+      },
+      {
+        "id": "atlas_easy_7",
+        "question": "What is the Atlas UI used for?",
+        "options": [
+          "Only viewing data",
+          "Managing clusters, users, and monitoring",
+          "Writing queries only",
+          "Installing MongoDB"
+        ],
+        "correct": 1,
+        "explanation": "The Atlas UI provides comprehensive management for clusters, users, security, and monitoring."
+      },
+      {
+        "id": "atlas_easy_8",
+        "question": "What type of database is MongoDB?",
+        "options": [
+          "Relational database",
+          "Graph database",
+          "Document database",
+          "Key-value database"
+        ],
+        "correct": 2,
+        "explanation": "MongoDB is a document-oriented NoSQL database that stores data in JSON-like documents."
+      },
+      {
+        "id": "atlas_easy_9",
+        "question": "What format does MongoDB use to store data?",
+        "options": [
+          "XML",
+          "CSV",
+          "BSON",
+          "Plain text"
+        ],
+        "correct": 2,
+        "explanation": "MongoDB stores data in BSON (Binary JSON), which extends JSON with additional data types."
+      },
+      {
+        "id": "atlas_easy_10",
+        "question": "What is a MongoDB collection?",
+        "options": [
+          "A group of databases",
+          "A group of documents",
+          "A single document",
+          "A field in a document"
+        ],
+        "correct": 1,
+        "explanation": "A collection is a group of MongoDB documents, similar to a table in relational databases."
+      },
+      {
+        "id": "atlas_easy_11",
+        "question": "What is Atlas Data Lake?",
+        "options": [
+          "A swimming pool for data",
+          "A service to query data stored in S3",
+          "A backup service",
+          "A replication feature"
+        ],
+        "correct": 1,
+        "explanation": "Atlas Data Lake allows you to query data in AWS S3 using MongoDB Query Language."
+      },
+      {
+        "id": "atlas_easy_12",
+        "question": "What is the purpose of IP whitelisting in Atlas?",
+        "options": [
+          "To slow down connections",
+          "To restrict database access to specific IP addresses",
+          "To improve performance",
+          "To enable sharding"
+        ],
+        "correct": 1,
+        "explanation": "IP whitelisting is a security feature that allows connections only from specified IP addresses."
+      },
+      {
+        "id": "atlas_easy_13",
+        "question": "What is MongoDB Compass?",
+        "options": [
+          "A navigation tool",
+          "A GUI for MongoDB",
+          "A cloud service",
+          "A command-line tool"
+        ],
+        "correct": 1,
+        "explanation": "MongoDB Compass is the official GUI tool for exploring and manipulating MongoDB data."
+      },
+      {
+        "id": "atlas_easy_14",
+        "question": "What does VPC peering in Atlas allow?",
+        "options": [
+          "Faster queries",
+          "Private network connection between Atlas and your VPC",
+          "More storage",
+          "Automatic backups"
+        ],
+        "correct": 1,
+        "explanation": "VPC peering creates a private network connection between your Atlas cluster and your cloud provider's VPC."
+      },
+      {
+        "id": "atlas_easy_15",
+        "question": "What is the default port for MongoDB?",
+        "options": [
+          "3306",
+          "5432",
+          "27017",
+          "8080"
+        ],
+        "correct": 2,
+        "explanation": "MongoDB listens on port 27017 by default."
+      },
+      {
+        "id": "atlas_easy_16",
+        "question": "What is a replica set in MongoDB?",
+        "options": [
+          "A backup system",
+          "A group of MongoDB servers maintaining the same data",
+          "A collection of documents",
+          "A query optimization feature"
+        ],
+        "correct": 1,
+        "explanation": "A replica set is a group of MongoDB servers that maintain copies of the same data for high availability."
+      },
+      {
+        "id": "atlas_easy_17",
+        "question": "What is the primary node in a replica set?",
+        "options": [
+          "The backup node",
+          "The node that receives all write operations",
+          "The slowest node",
+          "The monitoring node"
+        ],
+        "correct": 1,
+        "explanation": "The primary node is the only member that receives write operations in a replica set."
+      },
+      {
+        "id": "atlas_easy_18",
+        "question": "What happens if the primary node fails?",
+        "options": [
+          "All data is lost",
+          "The database stops working",
+          "An election is held to select a new primary",
+          "Manual intervention is required"
+        ],
+        "correct": 2,
+        "explanation": "MongoDB automatically holds an election among secondaries to elect a new primary."
+      },
+      {
+        "id": "atlas_easy_19",
+        "question": "What is Atlas Charts?",
+        "options": [
+          "A navigation system",
+          "A data visualization tool",
+          "A query analyzer",
+          "A backup tool"
+        ],
+        "correct": 1,
+        "explanation": "Atlas Charts is a tool for creating visualizations and dashboards from MongoDB data."
+      },
+      {
+        "id": "atlas_easy_20",
+        "question": "Can you pause an Atlas cluster?",
+        "options": [
+          "No, never",
+          "Yes, M10+ clusters can be paused",
+          "Only free tier clusters",
+          "Only during maintenance"
+        ],
+        "correct": 1,
+        "explanation": "M10+ clusters can be paused to save costs when not in use."
+      },
+      {
+        "id": "atlas_easy_21",
+        "question": "What is the Atlas CLI?",
+        "options": [
+          "A web browser",
+          "A command-line interface for managing Atlas",
+          "A database driver",
+          "A backup tool"
+        ],
+        "correct": 1,
+        "explanation": "The Atlas CLI allows you to manage Atlas resources from the command line."
+      },
+      {
+        "id": "atlas_easy_22",
+        "question": "What is continuous backup in Atlas?",
+        "options": [
+          "Manual daily backups",
+          "Hourly backups only",
+          "Point-in-time recovery with oplog",
+          "No backup system"
+        ],
+        "correct": 2,
+        "explanation": "Continuous backup provides point-in-time recovery using oplog for M10+ clusters."
+      },
+      {
+        "id": "atlas_easy_23",
+        "question": "What is MongoDB's query language called?",
+        "options": [
+          "SQL",
+          "MQL (MongoDB Query Language)",
+          "NoSQL",
+          "GraphQL"
+        ],
+        "correct": 1,
+        "explanation": "MongoDB uses MQL (MongoDB Query Language) for querying documents."
+      },
+      {
+        "id": "atlas_easy_24",
+        "question": "What is a document in MongoDB?",
+        "options": [
+          "A text file",
+          "A PDF file",
+          "A record stored in JSON-like format",
+          "A table"
+        ],
+        "correct": 2,
+        "explanation": "A document is a record in MongoDB, stored as a BSON object (JSON-like format)."
+      },
+      {
+        "id": "atlas_easy_25",
+        "question": "What is the _id field in MongoDB?",
+        "options": [
+          "An optional field",
+          "A unique identifier for each document",
+          "A timestamp field",
+          "A user-defined field"
+        ],
+        "correct": 1,
+        "explanation": "The _id field is a unique identifier automatically created for each document."
+      },
+      {
+        "id": "atlas_easy_26",
+        "question": "What is Atlas App Services?",
+        "options": [
+          "A mobile app store",
+          "A backend-as-a-service platform",
+          "A testing framework",
+          "A monitoring tool"
+        ],
+        "correct": 1,
+        "explanation": "Atlas App Services (formerly Realm) provides backend services like authentication, functions, and triggers."
+      },
+      {
+        "id": "atlas_easy_27",
+        "question": "What is the maximum document size in MongoDB?",
+        "options": [
+          "1MB",
+          "16MB",
+          "32MB",
+          "Unlimited"
+        ],
+        "correct": 1,
+        "explanation": "MongoDB documents have a maximum size of 16MB."
+      },
+      {
+        "id": "atlas_easy_28",
+        "question": "What is an index in MongoDB?",
+        "options": [
+          "A table of contents",
+          "A data structure that improves query performance",
+          "A type of collection",
+          "A backup file"
+        ],
+        "correct": 1,
+        "explanation": "Indexes are data structures that improve the speed of query operations."
+      },
+      {
+        "id": "atlas_easy_29",
+        "question": "What is the default read preference?",
+        "options": [
+          "Secondary",
+          "Primary",
+          "Nearest",
+          "Random"
+        ],
+        "correct": 1,
+        "explanation": "By default, reads are directed to the primary node."
+      },
+      {
+        "id": "atlas_easy_30",
+        "question": "What is Atlas's role in database management?",
+        "options": [
+          "Only provides hosting",
+          "Automates deployment, management, and scaling",
+          "Only provides monitoring",
+          "Only handles security"
+        ],
+        "correct": 1,
+        "explanation": "Atlas is a fully-managed service that automates all aspects of database operations."
+      },
+      {
+        "id": "atlas_easy_31",
+        "question": "What is MongoDB's horizontal scaling strategy called?",
+        "options": [
+          "Replication",
+          "Sharding",
+          "Partitioning",
+          "Clustering"
+        ],
+        "correct": 1,
+        "explanation": "Sharding is MongoDB's method for distributing data across multiple machines."
+      },
+      {
+        "id": "atlas_easy_32",
+        "question": "What is the Atlas API used for?",
+        "options": [
+          "Querying data",
+          "Programmatically managing Atlas resources",
+          "Creating charts",
+          "Monitoring only"
+        ],
+        "correct": 1,
+        "explanation": "The Atlas API allows programmatic management of clusters, users, and other Atlas resources."
+      },
+      {
+        "id": "atlas_easy_33",
+        "question": "What is multi-cloud deployment in Atlas?",
+        "options": [
+          "Using multiple databases",
+          "Deploying across multiple cloud providers",
+          "Having multiple clusters",
+          "Using multiple regions"
+        ],
+        "correct": 1,
+        "explanation": "Multi-cloud allows deployment across AWS, Azure, and GCP simultaneously."
+      },
+      {
+        "id": "atlas_easy_34",
+        "question": "What is the purpose of connection strings in Atlas?",
+        "options": [
+          "To decrypt data",
+          "To connect applications to the database",
+          "To create backups",
+          "To monitor performance"
+        ],
+        "correct": 1,
+        "explanation": "Connection strings provide the information needed for applications to connect to Atlas clusters."
+      },
+      {
+        "id": "atlas_easy_35",
+        "question": "What authentication method does Atlas support?",
+        "options": [
+          "Only username/password",
+          "Username/password, LDAP, and X.509 certificates",
+          "Only OAuth",
+          "No authentication"
+        ],
+        "correct": 1,
+        "explanation": "Atlas supports multiple authentication methods including SCRAM, LDAP, and X.509."
+      },
+      {
+        "id": "atlas_easy_36",
+        "question": "What is performance advisor in Atlas?",
+        "options": [
+          "A person you can call",
+          "A tool that suggests index improvements",
+          "A speed test tool",
+          "A backup service"
+        ],
+        "correct": 1,
+        "explanation": "Performance Advisor analyzes queries and recommends indexes to improve performance."
+      },
+      {
+        "id": "atlas_easy_37",
+        "question": "What is the purpose of database triggers in Atlas?",
+        "options": [
+          "To delete data",
+          "To execute functions in response to database events",
+          "To create backups",
+          "To optimize queries"
+        ],
+        "correct": 1,
+        "explanation": "Database triggers automatically execute functions when specific database events occur."
+      },
+      {
+        "id": "atlas_easy_38",
+        "question": "Can you export data from Atlas?",
+        "options": [
+          "No, data is locked in",
+          "Yes, using mongodump, mongoexport, or Compass",
+          "Only to CSV",
+          "Only manually"
+        ],
+        "correct": 1,
+        "explanation": "Atlas supports multiple data export methods including mongodump and mongoexport."
+      },
+      {
+        "id": "atlas_easy_39",
+        "question": "What is the Atlas Data API?",
+        "options": [
+          "A REST API for CRUD operations",
+          "A GraphQL endpoint",
+          "A monitoring API",
+          "A backup API"
+        ],
+        "correct": 0,
+        "explanation": "The Data API provides HTTPS endpoints for database operations without a driver."
+      },
+      {
+        "id": "atlas_easy_40",
+        "question": "What is MongoDB Atlas's uptime SLA for M10+ clusters?",
+        "options": [
+          "95%",
+          "99%",
+          "99.95%",
+          "100%"
+        ],
+        "correct": 2,
+        "explanation": "Atlas guarantees 99.95% uptime for M10 and higher tier clusters."
+      },
+      {
+        "id": "atlas_easy_41",
+        "question": "What differentiates Atlas Infinite from Core architecture?",
+        "options": [
+          "Fixed storage tiers",
+          "Automatic petabyte-scale storage without restarts",
+          "Serverless only",
+          "Different query language"
+        ],
+        "correct": 1,
+        "explanation": "Infinite automatically provisions storage to petabytes without manual scaling or cluster changes."
+      },
+      {
+        "id": "atlas_easy_42",
+        "question": "Which architecture suits unpredictable growth?",
+        "options": [
+          "Core M-series",
+          "Infinite auto-scaling",
+          "Free tier M0",
+          "Shared clusters"
+        ],
+        "correct": 1,
+        "explanation": "Infinite handles unpredictable growth through automatic storage provisioning."
+      },
+      {
+        "id": "atlas_easy_43",
+        "question": "What cloud providers does Atlas support?",
+        "options": [
+          "AWS only",
+          "AWS and Azure",
+          "AWS, Azure, and GCP",
+          "All cloud providers"
+        ],
+        "correct": 2,
+        "explanation": "Atlas supports AWS, Microsoft Azure, and Google Cloud Platform for multi-cloud deployment."
+      },
+      {
+        "id": "atlas_easy_44",
+        "question": "Can one cluster span multiple cloud providers?",
+        "options": [
+          "No",
+          "Yes, multi-cloud clusters distribute nodes across providers",
+          "Only AWS+Azure",
+          "Only enterprise"
+        ],
+        "correct": 1,
+        "explanation": "Multi-cloud clusters deploy replica set nodes across AWS, Azure, and GCP."
+      },
+      {
+        "id": "atlas_easy_45",
+        "question": "Key benefit of multi-cloud deployment?",
+        "options": [
+          "Lower cost",
+          "Avoid vendor lock-in",
+          "Faster queries",
+          "More storage"
+        ],
+        "correct": 1,
+        "explanation": "Multi-cloud reduces dependency on any single cloud provider."
+      },
+      {
+        "id": "atlas_easy_46",
+        "question": "What backup frequencies does Atlas offer?",
+        "options": [
+          "Daily only",
+          "Hourly, daily, weekly, monthly",
+          "Hourly, daily, weekly, monthly, yearly",
+          "Manual only"
+        ],
+        "correct": 2,
+        "explanation": "Atlas supports hourly, daily, weekly, monthly, and yearly automated backup schedules."
+      },
+      {
+        "id": "atlas_easy_47",
+        "question": "Are M10+ backups automatic?",
+        "options": [
+          "No, manual setup",
+          "Yes, continuous backup by default",
+          "Only enterprise",
+          "Only weekly"
+        ],
+        "correct": 1,
+        "explanation": "M10+ clusters enable continuous backup with point-in-time recovery by default."
+      },
+      {
+        "id": "atlas_easy_48",
+        "question": "How often are continuous snapshots taken?",
+        "options": [
+          "Once daily",
+          "Every 12 hours",
+          "Every 6 hours",
+          "Multiple times daily per schedule"
+        ],
+        "correct": 3,
+        "explanation": "Continuous backup creates snapshots throughout the day based on configured schedules."
+      },
+      {
+        "id": "atlas_easy_49",
+        "question": "Minimum RPO for Atlas point-in-time recovery?",
+        "options": [
+          "15 minutes",
+          "5 minutes",
+          "As low as 1 minute",
+          "1 hour"
+        ],
+        "correct": 2,
+        "explanation": "Atlas continuous backup achieves RPO (Recovery Point Objective) as low as 1 minute using the oplog."
+      },
+      {
+        "id": "atlas_easy_50",
+        "question": "What can point-in-time recovery do?",
+        "options": [
+          "Only restore snapshots",
+          "Restore to any timestamp within retention",
+          "Only recent backup",
+          "Restore single docs"
+        ],
+        "correct": 1,
+        "explanation": "Point-in-time recovery restores to any specific moment within the retention window."
+      },
+      {
+        "id": "atlas_easy_51",
+        "question": "Which tiers support point-in-time recovery?",
+        "options": [
+          "All including M0",
+          "M10+ with continuous backup",
+          "M40+",
+          "Enterprise only"
+        ],
+        "correct": 1,
+        "explanation": "M10 and higher dedicated clusters with continuous backup support point-in-time recovery."
+      },
+      {
+        "id": "atlas_easy_52",
+        "question": "What is Atlas M0 tier?",
+        "options": [
+          "Smallest paid",
+          "Free tier with 512MB storage",
+          "Trial that expires",
+          "Largest tier"
+        ],
+        "correct": 1,
+        "explanation": "M0 is the free tier offering 512MB storage that never expires."
+      },
+      {
+        "id": "atlas_easy_53",
+        "question": "What is Atlas Flex designed for?",
+        "options": [
+          "Max performance",
+          "Low-cost intermittent workloads",
+          "Free development",
+          "Enterprise only"
+        ],
+        "correct": 1,
+        "explanation": "Flex provides cost-effective pricing for workloads with intermittent or variable activity."
+      },
+      {
+        "id": "atlas_easy_54",
+        "question": "Difference between shared and dedicated?",
+        "options": [
+          "Shared is faster",
+          "Shared (M0/M2/M5) share infra; dedicated (M10+) are isolated",
+          "No difference",
+          "Dedicated is free"
+        ],
+        "correct": 1,
+        "explanation": "Shared tiers share infrastructure; dedicated tiers have isolated resources."
+      },
+      {
+        "id": "atlas_easy_55",
+        "question": "At what tier does continuous backup start?",
+        "options": [
+          "M0+",
+          "M5+",
+          "M10+",
+          "M40+"
+        ],
+        "correct": 2,
+        "explanation": "Continuous backup is available starting at M10 tier."
+      },
+      {
+        "id": "atlas_easy_56",
+        "question": "What is VPC peering in Atlas?",
+        "options": [
+          "Backup method",
+          "Private network connection between VPC and Atlas",
+          "Replication feature",
+          "Monitoring tool"
+        ],
+        "correct": 1,
+        "explanation": "VPC peering creates private network connections between your VPC and Atlas cluster."
+      },
+      {
+        "id": "atlas_easy_57",
+        "question": "Main security benefit of private endpoints?",
+        "options": [
+          "Faster queries",
+          "Traffic avoids public internet",
+          "Auto encryption",
+          "Free backups"
+        ],
+        "correct": 1,
+        "explanation": "Private endpoints keep database traffic on the cloud provider's private network."
+      },
+      {
+        "id": "atlas_easy_58",
+        "question": "Can M0 use VPC peering?",
+        "options": [
+          "Yes, all tiers",
+          "No, requires M10+ dedicated",
+          "Only M2/M5",
+          "Only certain regions"
+        ],
+        "correct": 1,
+        "explanation": "VPC peering requires M10 or higher dedicated clusters."
+      },
+      {
+        "id": "atlas_easy_59",
+        "question": "What technology powers Atlas Search?",
+        "options": [
+          "Elasticsearch",
+          "Solr",
+          "Apache Lucene",
+          "Algolia"
+        ],
+        "correct": 2,
+        "explanation": "Atlas Search is built on Apache Lucene for full-text search."
+      },
+      {
+        "id": "atlas_easy_60",
+        "question": "What search types does Atlas Search support?",
+        "options": [
+          "Full-text only",
+          "Full-text, vector, and hybrid search",
+          "Keyword only",
+          "Fuzzy only"
+        ],
+        "correct": 1,
+        "explanation": "Atlas Search supports full-text, vector (semantic), and hybrid search."
+      },
+      {
+        "id": "atlas_easy_61",
+        "question": "What is vector search used for?",
+        "options": [
+          "Geometry",
+          "Semantic similarity for AI applications",
+          "Network routing",
+          "Graph traversal"
+        ],
+        "correct": 1,
+        "explanation": "Vector search enables semantic similarity using embeddings for AI/ML use cases."
+      },
+      {
+        "id": "atlas_easy_62",
+        "question": "What is hybrid search?",
+        "options": [
+          "Multi-collection search",
+          "Combining full-text and vector search",
+          "Multi-cloud search",
+          "Atlas + Data Lake search"
+        ],
+        "correct": 1,
+        "explanation": "Hybrid search combines traditional full-text with semantic vector search."
+      },
+      {
+        "id": "atlas_easy_63",
+        "question": "What is Voyage AI used for?",
+        "options": [
+          "Migration",
+          "Generating vector embeddings for search",
+          "Query optimization",
+          "Backup automation"
+        ],
+        "correct": 1,
+        "explanation": "Voyage AI provides embedding models for vector representations used in Atlas Vector Search."
+      },
+      {
+        "id": "atlas_easy_64",
+        "question": "What is LangChainJS commonly used for?",
+        "options": [
+          "Migration",
+          "Building LLM apps with vector search",
+          "Monitoring",
+          "Authentication"
+        ],
+        "correct": 1,
+        "explanation": "LangChainJS builds LLM applications, often integrating Atlas Vector Search for RAG patterns."
+      },
+      {
+        "id": "atlas_easy_65",
+        "question": "What does Query Shape Insights identify?",
+        "options": [
+          "Schema issues",
+          "Slow query patterns and CPU usage",
+          "Network latency",
+          "Storage capacity"
+        ],
+        "correct": 1,
+        "explanation": "Query Shape Insights analyzes query patterns and CPU consumption to identify optimization needs."
+      },
+      {
+        "id": "atlas_easy_66",
+        "question": "What metric does it track?",
+        "options": [
+          "Network bandwidth",
+          "CPU time consumed",
+          "Memory usage",
+          "Disk I/O"
+        ],
+        "correct": 1,
+        "explanation": "Query Shape Insights specifically tracks CPU time by query shape."
+      },
+      {
+        "id": "atlas_easy_67",
+        "question": "What can Data Lake query?",
+        "options": [
+          "Only MongoDB collections",
+          "S3 data using MongoDB queries",
+          "Only CSV",
+          "Only JSON"
+        ],
+        "correct": 1,
+        "explanation": "Data Lake queries data in AWS S3 using MongoDB Query Language without moving data."
+      },
+      {
+        "id": "atlas_easy_68",
+        "question": "Must data be loaded into MongoDB for Data Lake?",
+        "options": [
+          "Yes",
+          "No, queries S3 directly",
+          "Only JSON",
+          "Only small datasets"
+        ],
+        "correct": 1,
+        "explanation": "Data Lake queries S3 directly without duplicating data into MongoDB."
+      },
+      {
+        "id": "atlas_easy_69",
+        "question": "What is Atlas Serverless?",
+        "options": [
+          "No servers",
+          "Pay-per-operation with auto-scaling",
+          "Free tier",
+          "Backup service"
+        ],
+        "correct": 1,
+        "explanation": "Serverless automatically scales with usage-based pricing per operation."
+      },
+      {
+        "id": "atlas_easy_70",
+        "question": "How does Serverless pricing work?",
+        "options": [
+          "Fixed monthly",
+          "Pay per operation and storage used",
+          "Free",
+          "Per-hour"
+        ],
+        "correct": 1,
+        "explanation": "Serverless charges based on reads, writes, storage, and transfer."
+      },
+      {
+        "id": "atlas_easy_71",
+        "question": "Purpose of Global Clusters?",
+        "options": [
+          "Cheaper hosting",
+          "Deploy across regions for low-latency access",
+          "More storage",
+          "Auto backups"
+        ],
+        "correct": 1,
+        "explanation": "Global Clusters distribute data geographically for region-local low-latency reads."
+      },
+      {
+        "id": "atlas_easy_72",
+        "question": "How do Global Clusters reduce latency?",
+        "options": [
+          "Caching",
+          "Routing reads to geographically close nodes",
+          "Compression",
+          "Faster CPUs"
+        ],
+        "correct": 1,
+        "explanation": "Global Clusters route reads to the zone closest to users."
+      },
+      {
+        "id": "atlas_easy_73",
+        "question": "What is Online Archive for?",
+        "options": [
+          "Real-time backups",
+          "Moving infrequent data to cheaper storage",
+          "Encryption",
+          "Index optimization"
+        ],
+        "correct": 1,
+        "explanation": "Online Archive automatically moves infrequently accessed data to cost-effective object storage."
+      },
+      {
+        "id": "atlas_easy_74",
+        "question": "Can you query archived data?",
+        "options": [
+          "No, must restore first",
+          "Yes, remains queryable through Atlas",
+          "Only with special tools",
+          "Only after 24h"
+        ],
+        "correct": 1,
+        "explanation": "Archived data remains queryable through MongoDB with higher latency than active data."
+      },
+      {
+        "id": "atlas_easy_75",
+        "question": "What is SCRAM authentication?",
+        "options": [
+          "Certificate-based",
+          "Username/password with salted challenge-response",
+          "LDAP integration",
+          "Biometric"
+        ],
+        "correct": 1,
+        "explanation": "SCRAM is MongoDB's secure username/password authentication mechanism."
+      },
+      {
+        "id": "atlas_easy_76",
+        "question": "What is X.509 authentication?",
+        "options": [
+          "Password-based",
+          "Certificate-based authentication",
+          "Biometric",
+          "Two-factor"
+        ],
+        "correct": 1,
+        "explanation": "X.509 uses digital certificates for stronger authentication than passwords."
+      },
+      {
+        "id": "atlas_easy_77",
+        "question": "What does LDAP integration provide?",
+        "options": [
+          "Faster queries",
+          "Enterprise directory service authentication",
+          "Auto backups",
+          "Encryption"
+        ],
+        "correct": 1,
+        "explanation": "LDAP integrates with Active Directory for centralized user authentication."
+      },
+      {
+        "id": "atlas_easy_78",
+        "question": "Is encryption at rest enabled by default?",
+        "options": [
+          "No, manual setup",
+          "Yes, all Atlas clusters",
+          "Only M40+",
+          "Only certain regions"
+        ],
+        "correct": 1,
+        "explanation": "All Atlas clusters have encryption at rest enabled by default."
+      },
+      {
+        "id": "atlas_easy_79",
+        "question": "Is data encrypted in transit?",
+        "options": [
+          "No, only at rest",
+          "Yes, all connections use TLS/SSL",
+          "Only paid tiers",
+          "Only certain regions"
+        ],
+        "correct": 1,
+        "explanation": "Atlas enforces TLS/SSL encryption for all network connections."
+      },
+      {
+        "id": "atlas_easy_80",
+        "question": "What is a key feature of Atlas Cost Optimization?",
+        "options": [
+          "Basic Cost Optimization feature",
+          "Advanced Cost Optimization capability for database management",
+          "Deprecated Cost Optimization option",
+          "Unrelated feature"
+        ],
+        "correct": 1,
+        "explanation": "Atlas Cost Optimization provides advanced capabilities for effective database management and operations."
+      },
+      {
+        "id": "atlas_easy_81",
+        "question": "What is a key feature of Atlas Performance Advisor?",
+        "options": [
+          "Basic Performance Advisor feature",
+          "Advanced Performance Advisor capability for database management",
+          "Deprecated Performance Advisor option",
+          "Unrelated feature"
+        ],
+        "correct": 1,
+        "explanation": "Atlas Performance Advisor provides advanced capabilities for effective database management and operations."
+      },
+      {
+        "id": "atlas_easy_82",
+        "question": "What is a key feature of Atlas Data Federation?",
+        "options": [
+          "Basic Data Federation feature",
+          "Advanced Data Federation capability for database management",
+          "Deprecated Data Federation option",
+          "Unrelated feature"
+        ],
+        "correct": 1,
+        "explanation": "Atlas Data Federation provides advanced capabilities for effective database management and operations."
+      },
+      {
+        "id": "atlas_easy_83",
+        "question": "What is a key feature of Atlas Cluster Management?",
+        "options": [
+          "Basic Cluster Management feature",
+          "Advanced Cluster Management capability for database management",
+          "Deprecated Cluster Management option",
+          "Unrelated feature"
+        ],
+        "correct": 1,
+        "explanation": "Atlas Cluster Management provides advanced capabilities for effective database management and operations."
+      },
+      {
+        "id": "atlas_easy_84",
+        "question": "What is a key feature of Atlas Monitoring?",
+        "options": [
+          "Basic Monitoring feature",
+          "Advanced Monitoring capability for database management",
+          "Deprecated Monitoring option",
+          "Unrelated feature"
+        ],
+        "correct": 1,
+        "explanation": "Atlas Monitoring provides advanced capabilities for effective database management and operations."
+      },
+      {
+        "id": "atlas_easy_85",
+        "question": "What is a key feature of Atlas Networking?",
+        "options": [
+          "Basic Networking feature",
+          "Advanced Networking capability for database management",
+          "Deprecated Networking option",
+          "Unrelated feature"
+        ],
+        "correct": 1,
+        "explanation": "Atlas Networking provides advanced capabilities for effective database management and operations."
+      },
+      {
+        "id": "atlas_easy_86",
+        "question": "What is a key feature of Atlas API Access?",
+        "options": [
+          "Basic API Access feature",
+          "Advanced API Access capability for database management",
+          "Deprecated API Access option",
+          "Unrelated feature"
+        ],
+        "correct": 1,
+        "explanation": "Atlas API Access provides advanced capabilities for effective database management and operations."
+      },
+      {
+        "id": "atlas_easy_87",
+        "question": "What is a key feature of Atlas Regions?",
+        "options": [
+          "Basic Regions feature",
+          "Advanced Regions capability for database management",
+          "Deprecated Regions option",
+          "Unrelated feature"
+        ],
+        "correct": 1,
+        "explanation": "Atlas Regions provides advanced capabilities for effective database management and operations."
+      },
+      {
+        "id": "atlas_easy_88",
+        "question": "What are the two types of auto-scaling available in MongoDB Atlas?",
+        "options": [
+          "CPU and memory auto-scaling",
+          "Cluster tier and storage auto-scaling",
+          "Read and write auto-scaling",
+          "Index and query auto-scaling"
+        ],
+        "correct": 1,
+        "explanation": "Atlas offers cluster tier auto-scaling (scales instance type) and storage auto-scaling (increases disk size as data grows)."
+      },
+      {
+        "id": "atlas_easy_89",
+        "question": "At what CPU utilization threshold does Atlas scale up a cluster?",
+        "options": [
+          "50% over 30 minutes",
+          "60% over 45 minutes",
+          "75% over 1 hour",
+          "90% over 2 hours"
+        ],
+        "correct": 2,
+        "explanation": "Atlas scales up when CPU utilization exceeds approximately 75% over a 1-hour window."
+      },
+      {
+        "id": "atlas_easy_90",
+        "question": "At what storage utilization percentage does Atlas automatically increase disk size?",
+        "options": [
+          "70%",
+          "80%",
+          "90%",
+          "95%"
+        ],
+        "correct": 2,
+        "explanation": "Storage auto-scaling increases disk size when usage exceeds 90%."
+      },
+      {
+        "id": "atlas_easy_91",
+        "question": "Is Atlas storage auto-scaling bidirectional (can it scale down)?",
+        "options": [
+          "Yes, it scales both up and down",
+          "No, storage does not scale down automatically",
+          "Only for M10+ clusters",
+          "Yes, but only during maintenance windows"
+        ],
+        "correct": 1,
+        "explanation": "Atlas automatically increases disk when utilization exceeds 90%, but storage does not scale down automatically."
+      },
+      {
+        "id": "atlas_easy_92",
+        "question": "Is cluster tier scale-down enabled by default in Atlas?",
+        "options": [
+          "Yes, always enabled",
+          "No, it is disabled by default",
+          "Only for serverless",
+          "Only for M0 clusters"
+        ],
+        "correct": 1,
+        "explanation": "Scale-down is optional and disabled by default. Atlas scales down only after CPU consistently stays below approximately 50% for several hours."
+      },
+      {
+        "id": "atlas_easy_93",
+        "question": "What tool can you use starting in MongoDB 7.0 to evaluate shard keys?",
+        "options": [
+          "shardAnalyzer",
+          "analyzeShardKey",
+          "evalKey",
+          "keyMetrics"
+        ],
+        "correct": 1,
+        "explanation": "Starting in 7.0, you can use analyzeShardKey which calculates metrics for evaluating a shard key for an unsharded or sharded collection."
+      },
+      {
+        "id": "atlas_easy_94",
+        "question": "What is the main problem with using monotonically increasing keys as shard keys?",
+        "options": [
+          "They cause slow queries",
+          "They create write hotspots on one shard",
+          "They use too much memory",
+          "They cannot be indexed"
+        ],
+        "correct": 1,
+        "explanation": "Monotonically increasing keys cause write hotspots because all new inserts land in the last chunk on the highest-value shard, while other shards receive no new writes."
+      },
+      {
+        "id": "atlas_easy_95",
+        "question": "What characteristic should a good shard key have regarding cardinality?",
+        "options": [
+          "Low cardinality for simplicity",
+          "Medium cardinality for balance",
+          "High cardinality for better distribution",
+          "Cardinality doesn't matter"
+        ],
+        "correct": 2,
+        "explanation": "Choose a shard key with high cardinality. The cardinality determines the maximum number of chunks the balancer can create."
+      }
+    ],
+    "medium": [
+      {
+        "id": "atlas_medium_1",
+        "question": "What is the minimum cluster tier that supports VPC peering?",
+        "options": [
+          "M0",
+          "M2",
+          "M10",
+          "M30"
+        ],
+        "correct": 2,
+        "explanation": "VPC peering is available starting from M10 clusters."
+      },
+      {
+        "id": "atlas_medium_2",
+        "question": "How does Atlas implement high availability?",
+        "options": [
+          "Single server with backups",
+          "Three-node replica sets across availability zones",
+          "Load balancers only",
+          "RAID arrays"
+        ],
+        "correct": 1,
+        "explanation": "Atlas uses three-node replica sets distributed across availability zones for high availability."
+      },
+      {
+        "id": "atlas_medium_3",
+        "question": "What is the oplog in MongoDB?",
+        "options": [
+          "A log of operations for replication",
+          "An error log",
+          "A performance log",
+          "A user activity log"
+        ],
+        "correct": 0,
+        "explanation": "The oplog (operations log) is a capped collection that stores all write operations for replication."
+      },
+      {
+        "id": "atlas_medium_4",
+        "question": "What is write concern in MongoDB?",
+        "options": [
+          "A warning about slow writes",
+          "Acknowledgment level for write operations",
+          "A write permission setting",
+          "A backup frequency setting"
+        ],
+        "correct": 1,
+        "explanation": "Write concern specifies the level of acknowledgment required from MongoDB for write operations."
+      },
+      {
+        "id": "atlas_medium_5",
+        "question": "What does read concern 'majority' guarantee?",
+        "options": [
+          "Fastest reads",
+          "Data has been replicated to a majority of nodes",
+          "Reads from all nodes",
+          "Local cache reads"
+        ],
+        "correct": 1,
+        "explanation": "Read concern 'majority' ensures you read data that has been acknowledged by a majority of replica set members."
+      },
+      {
+        "id": "atlas_medium_6",
+        "question": "What is the purpose of the aggregation pipeline?",
+        "options": [
+          "To create backups",
+          "To process and transform documents through stages",
+          "To replicate data",
+          "To create indexes"
+        ],
+        "correct": 1,
+        "explanation": "The aggregation pipeline processes documents through multiple stages for complex transformations and analytics."
+      },
+      {
+        "id": "atlas_medium_7",
+        "question": "What is a compound index?",
+        "options": [
+          "An index on a nested field",
+          "An index on multiple fields",
+          "An index with complex logic",
+          "A temporary index"
+        ],
+        "correct": 1,
+        "explanation": "A compound index includes multiple fields and can support queries on various field combinations."
+      },
+      {
+        "id": "atlas_medium_8",
+        "question": "What is the covered query optimization?",
+        "options": [
+          "Query using cached data",
+          "Query satisfied entirely by an index",
+          "Query with error handling",
+          "Encrypted query"
+        ],
+        "correct": 1,
+        "explanation": "A covered query can be satisfied entirely using an index without examining documents."
+      },
+      {
+        "id": "atlas_medium_9",
+        "question": "What is Atlas Global Cluster?",
+        "options": [
+          "A worldwide backup system",
+          "Multi-region deployment with zone-based data placement",
+          "A monitoring service",
+          "A caching layer"
+        ],
+        "correct": 1,
+        "explanation": "Global Clusters distribute data geographically based on location zones for reduced latency."
+      },
+      {
+        "id": "atlas_medium_10",
+        "question": "What is the purpose of the $lookup stage in aggregation?",
+        "options": [
+          "To search for documents",
+          "To perform left outer joins between collections",
+          "To create indexes",
+          "To update documents"
+        ],
+        "correct": 1,
+        "explanation": "$lookup performs a left outer join to another collection in the same database."
+      },
+      {
+        "id": "atlas_medium_11",
+        "question": "What is the WiredTiger storage engine?",
+        "options": [
+          "A backup tool",
+          "The default storage engine providing document-level locking",
+          "A replication engine",
+          "A query optimizer"
+        ],
+        "correct": 1,
+        "explanation": "WiredTiger is the default storage engine offering document-level concurrency and compression."
+      },
+      {
+        "id": "atlas_medium_12",
+        "question": "What is change streams in MongoDB?",
+        "options": [
+          "A backup stream",
+          "Real-time notifications of data changes",
+          "A data migration tool",
+          "A performance monitor"
+        ],
+        "correct": 1,
+        "explanation": "Change streams allow applications to access real-time data changes without tailing the oplog."
+      },
+      {
+        "id": "atlas_medium_13",
+        "question": "What is the difference between MongoDB and MongoDB Atlas?",
+        "options": [
+          "No difference",
+          "MongoDB is the database, Atlas is the managed cloud service",
+          "Atlas is faster",
+          "Atlas uses different query language"
+        ],
+        "correct": 1,
+        "explanation": "MongoDB is the database software, while Atlas is the fully-managed cloud service for MongoDB."
+      },
+      {
+        "id": "atlas_medium_14",
+        "question": "What is the TTL index used for?",
+        "options": [
+          "Improving query speed",
+          "Automatically deleting documents after a time period",
+          "Creating temporary indexes",
+          "Logging time information"
+        ],
+        "correct": 1,
+        "explanation": "TTL (Time To Live) indexes automatically remove documents after a specified time period."
+      },
+      {
+        "id": "atlas_medium_15",
+        "question": "What is the purpose of the explain() method?",
+        "options": [
+          "To document queries",
+          "To analyze query execution and performance",
+          "To validate queries",
+          "To format query output"
+        ],
+        "correct": 1,
+        "explanation": "The explain() method provides detailed information about query execution plans and performance."
+      },
+      {
+        "id": "atlas_medium_16",
+        "question": "What is Atlas Online Archive?",
+        "options": [
+          "A backup service",
+          "Automatic archival of infrequently accessed data to S3",
+          "A compression tool",
+          "A data lake"
+        ],
+        "correct": 1,
+        "explanation": "Online Archive automatically moves infrequently accessed data to low-cost S3 storage while keeping it queryable."
+      },
+      {
+        "id": "atlas_medium_17",
+        "question": "What is a text index used for?",
+        "options": [
+          "Indexing numbers",
+          "Full-text search on string content",
+          "Sorting documents",
+          "Encrypting text"
+        ],
+        "correct": 1,
+        "explanation": "Text indexes support text search queries on string content with stemming and stop words."
+      },
+      {
+        "id": "atlas_medium_18",
+        "question": "What is the purpose of Atlas Serverless?",
+        "options": [
+          "Running without servers",
+          "Auto-scaling MongoDB with pay-per-use pricing",
+          "Cloud functions only",
+          "Edge computing"
+        ],
+        "correct": 1,
+        "explanation": "Atlas Serverless automatically scales capacity and charges based on actual usage."
+      },
+      {
+        "id": "atlas_medium_19",
+        "question": "What is schema validation in MongoDB?",
+        "options": [
+          "Automatic schema generation",
+          "Rules to enforce document structure and data types",
+          "Schema migration tool",
+          "Schema visualization"
+        ],
+        "correct": 1,
+        "explanation": "Schema validation enforces document structure and data type rules at the collection level."
+      },
+      {
+        "id": "atlas_medium_20",
+        "question": "What is the purpose of the $merge stage in aggregation?",
+        "options": [
+          "To combine arrays",
+          "To write aggregation results to a collection",
+          "To join collections",
+          "To merge databases"
+        ],
+        "correct": 1,
+        "explanation": "$merge writes the results of an aggregation pipeline to a specified collection."
+      },
+      {
+        "id": "atlas_medium_21",
+        "question": "What is Atlas's auto-scaling feature?",
+        "options": [
+          "Automatic backups",
+          "Automatic adjustment of cluster resources based on load",
+          "Automatic query optimization",
+          "Automatic data archival"
+        ],
+        "correct": 1,
+        "explanation": "Auto-scaling automatically adjusts cluster tier, storage, and IOPS based on workload metrics."
+      },
+      {
+        "id": "atlas_medium_22",
+        "question": "What is the difference between find() and findOne()?",
+        "options": [
+          "No difference",
+          "find() returns a cursor, findOne() returns a single document",
+          "findOne() is faster",
+          "find() requires an index"
+        ],
+        "correct": 1,
+        "explanation": "find() returns a cursor to iterate results, while findOne() returns a single document or null."
+      },
+      {
+        "id": "atlas_medium_23",
+        "question": "What is a capped collection?",
+        "options": [
+          "A read-only collection",
+          "A fixed-size collection with insertion order preservation",
+          "An encrypted collection",
+          "A temporary collection"
+        ],
+        "correct": 1,
+        "explanation": "Capped collections have a fixed size and maintain insertion order, automatically overwriting oldest documents."
+      },
+      {
+        "id": "atlas_medium_24",
+        "question": "What is the $facet aggregation stage used for?",
+        "options": [
+          "Creating faces",
+          "Processing multiple aggregation pipelines in a single stage",
+          "Filtering documents",
+          "Grouping data"
+        ],
+        "correct": 1,
+        "explanation": "$facet allows processing multiple aggregation pipelines within a single stage on the same input documents."
+      },
+      {
+        "id": "atlas_medium_25",
+        "question": "What is Atlas Search Analyzer?",
+        "options": [
+          "A query analyzer",
+          "Text processing configuration for search indexing",
+          "A performance analyzer",
+          "A log analyzer"
+        ],
+        "correct": 1,
+        "explanation": "Search Analyzers define how text is processed during indexing and querying in Atlas Search."
+      },
+      {
+        "id": "atlas_medium_26",
+        "question": "What is a geospatial index used for?",
+        "options": [
+          "Geographic data visualization",
+          "Queries on geographic coordinate data",
+          "Timezone conversion",
+          "Map storage"
+        ],
+        "correct": 1,
+        "explanation": "Geospatial indexes enable efficient queries on location-based data using coordinates."
+      },
+      {
+        "id": "atlas_medium_27",
+        "question": "What is the purpose of Atlas Data Federation?",
+        "options": [
+          "Database replication",
+          "Querying data across Atlas clusters and S3 with a unified view",
+          "User federation",
+          "Backup federation"
+        ],
+        "correct": 1,
+        "explanation": "Data Federation allows querying across multiple Atlas clusters and S3 data sources with a single connection."
+      },
+      {
+        "id": "atlas_medium_28",
+        "question": "What is the bulkWrite() operation?",
+        "options": [
+          "Writing large documents",
+          "Performing multiple write operations in a single call",
+          "Batch imports only",
+          "Parallel writes"
+        ],
+        "correct": 1,
+        "explanation": "bulkWrite() executes multiple write operations (insert, update, delete) in a single batch."
+      },
+      {
+        "id": "atlas_medium_29",
+        "question": "What is Atlas Encryption at Rest?",
+        "options": [
+          "Encrypting backups only",
+          "Encrypting database files on disk",
+          "Encrypting data in transit",
+          "Encrypting queries"
+        ],
+        "correct": 1,
+        "explanation": "Encryption at Rest encrypts all database files, including data files, journals, and backups."
+      },
+      {
+        "id": "atlas_medium_30",
+        "question": "What is the $graphLookup aggregation stage?",
+        "options": [
+          "Creating charts",
+          "Performing recursive search on a collection",
+          "Looking up graphs",
+          "Joining tables"
+        ],
+        "correct": 1,
+        "explanation": "$graphLookup performs recursive search on hierarchical or graph-structured data."
+      },
+      {
+        "id": "atlas_medium_31",
+        "question": "What is the purpose of Atlas Metrics?",
+        "options": [
+          "Unit conversion",
+          "Real-time and historical database performance monitoring",
+          "Measuring data size only",
+          "Billing metrics"
+        ],
+        "correct": 1,
+        "explanation": "Atlas Metrics provides comprehensive monitoring of database operations, resource usage, and performance."
+      },
+      {
+        "id": "atlas_medium_32",
+        "question": "What is Client-Side Field Level Encryption (CSFLE)?",
+        "options": [
+          "SSL/TLS encryption",
+          "Encryption of specific fields before sending to database",
+          "Backup encryption",
+          "User password encryption"
+        ],
+        "correct": 1,
+        "explanation": "CSFLE allows applications to encrypt specific sensitive fields before sending data to the database."
+      },
+      {
+        "id": "atlas_medium_33",
+        "question": "What is the difference between updateOne() and replaceOne()?",
+        "options": [
+          "No difference",
+          "updateOne() modifies fields, replaceOne() replaces entire document",
+          "replaceOne() is faster",
+          "updateOne() works on multiple documents"
+        ],
+        "correct": 1,
+        "explanation": "updateOne() modifies specific fields, while replaceOne() replaces the entire document except _id."
+      },
+      {
+        "id": "atlas_medium_34",
+        "question": "What is Atlas Private Endpoint?",
+        "options": [
+          "A private IP address",
+          "Private network connectivity without internet exposure",
+          "An encrypted connection",
+          "A VPN service"
+        ],
+        "correct": 1,
+        "explanation": "Private Endpoints provide network connectivity to Atlas without traversing the public internet."
+      },
+      {
+        "id": "atlas_medium_35",
+        "question": "What is the $unwind aggregation stage used for?",
+        "options": [
+          "Removing documents",
+          "Deconstructing array fields into separate documents",
+          "Reversing operations",
+          "Flattening nested objects"
+        ],
+        "correct": 1,
+        "explanation": "$unwind deconstructs an array field, creating a separate document for each array element."
+      },
+      {
+        "id": "atlas_medium_36",
+        "question": "What is the Atlas Performance Advisor's primary function?",
+        "options": [
+          "Speed testing",
+          "Analyzing slow queries and suggesting index optimizations",
+          "Hardware recommendations",
+          "Network optimization"
+        ],
+        "correct": 1,
+        "explanation": "Performance Advisor identifies slow queries and recommends indexes to improve performance."
+      },
+      {
+        "id": "atlas_medium_37",
+        "question": "What is mongodump used for?",
+        "options": [
+          "Debugging",
+          "Creating binary backups of MongoDB databases",
+          "Dumping logs",
+          "Removing data"
+        ],
+        "correct": 1,
+        "explanation": "mongodump creates binary exports of MongoDB databases for backup purposes."
+      },
+      {
+        "id": "atlas_medium_38",
+        "question": "What is the purpose of Atlas Triggers?",
+        "options": [
+          "Starting clusters",
+          "Executing functions automatically in response to database events",
+          "Creating alerts",
+          "Scheduling backups"
+        ],
+        "correct": 1,
+        "explanation": "Atlas Triggers execute serverless functions automatically when database events occur."
+      },
+      {
+        "id": "atlas_medium_39",
+        "question": "What is the difference between mongoimport and mongorestore?",
+        "options": [
+          "No difference",
+          "mongoimport handles JSON/CSV, mongorestore handles BSON dumps",
+          "mongoimport is faster",
+          "mongorestore works only on Atlas"
+        ],
+        "correct": 1,
+        "explanation": "mongoimport imports JSON/CSV/TSV files, while mongorestore restores binary BSON backups from mongodump."
+      },
+      {
+        "id": "atlas_medium_40",
+        "question": "What is Atlas's Query Profiler?",
+        "options": [
+          "A user profiling tool",
+          "A tool that logs slow queries for analysis",
+          "A query builder",
+          "A query validator"
+        ],
+        "correct": 1,
+        "explanation": "The Query Profiler logs queries that exceed a specified execution time threshold for analysis."
+      },
+      {
+        "id": "atlas_medium_41",
+        "question": "What is typical failover time for Atlas replica sets?",
+        "options": [
+          "<1 second",
+          "5-15 seconds for election",
+          "1-2 minutes",
+          "5 minutes"
+        ],
+        "correct": 1,
+        "explanation": "Atlas replica sets typically complete elections within 5-15 seconds during failover."
+      },
+      {
+        "id": "atlas_medium_42",
+        "question": "How does Infinite handle storage vs Core?",
+        "options": [
+          "Manual intervention",
+          "Automatically scales to petabytes without restarts",
+          "Slower than Core",
+          "Different structures"
+        ],
+        "correct": 1,
+        "explanation": "Infinite automatically provisions storage as needed without downtime or reconfiguration."
+      },
+      {
+        "id": "atlas_medium_43",
+        "question": "Minimum RPO for continuous backup?",
+        "options": [
+          "15 min",
+          "5 min",
+          "As low as 1 minute",
+          "1 hour"
+        ],
+        "correct": 2,
+        "explanation": "Continuous backup achieves 1-minute RPO using oplog for point-in-time recovery."
+      },
+      {
+        "id": "atlas_medium_44",
+        "question": "Which cloud providers in multi-cloud?",
+        "options": [
+          "AWS+Azure",
+          "AWS, Azure, and GCP",
+          "Any provider",
+          "Separate clusters required"
+        ],
+        "correct": 1,
+        "explanation": "Multi-cloud clusters distribute nodes across AWS, Azure, and GCP."
+      },
+      {
+        "id": "atlas_medium_45",
+        "question": "Benefit of hybrid search?",
+        "options": [
+          "Faster indexing",
+          "Combines keyword matching with semantic vector search",
+          "Cheaper storage",
+          "Auto optimization"
+        ],
+        "correct": 1,
+        "explanation": "Hybrid search leverages both traditional full-text and AI-powered semantic search."
+      },
+      {
+        "id": "atlas_medium_46",
+        "question": "How does Query Shape Insights help?",
+        "options": [
+          "Auto-creates indexes",
+          "Identifies query patterns consuming most CPU time",
+          "Compresses data",
+          "Caches results"
+        ],
+        "correct": 1,
+        "explanation": "Tracks CPU time by query pattern to identify optimization opportunities."
+      },
+      {
+        "id": "atlas_medium_47",
+        "question": "Query performance on Online Archive?",
+        "options": [
+          "No change",
+          "Higher latency than active data",
+          "Faster",
+          "Cannot query"
+        ],
+        "correct": 1,
+        "explanation": "Archived data in object storage has higher query latency than active cluster data."
+      },
+      {
+        "id": "atlas_medium_48",
+        "question": "How do Global Clusters reduce read latency?",
+        "options": [
+          "Local caching",
+          "Routing reads to geographically nearest zone nodes",
+          "Compression",
+          "Faster hardware"
+        ],
+        "correct": 1,
+        "explanation": "Zone-based routing directs reads to nodes closest to the user."
+      },
+      {
+        "id": "atlas_medium_49",
+        "question": "Recommended enterprise authentication?",
+        "options": [
+          "Password only",
+          "LDAP or X.509 certificates",
+          "API keys",
+          "OAuth only"
+        ],
+        "correct": 1,
+        "explanation": "Enterprise environments use LDAP or X.509 for centralized management and stronger security."
+      },
+      {
+        "id": "atlas_medium_50",
+        "question": "How does VPC peering improve security?",
+        "options": [
+          "Just faster",
+          "Traffic stays on private cloud network",
+          "Better encryption",
+          "Blocks external access"
+        ],
+        "correct": 1,
+        "explanation": "VPC peering keeps traffic on private networks without public internet exposure."
+      },
+      {
+        "id": "atlas_medium_51",
+        "question": "How does Atlas optimize replication?",
+        "options": [
+          "Manual configuration only",
+          "Automated replication with intelligent defaults and customization",
+          "Not supported",
+          "Third-party only"
+        ],
+        "correct": 1,
+        "explanation": "Atlas provides automated replication with configurable options."
+      },
+      {
+        "id": "atlas_medium_52",
+        "question": "How does Atlas optimize backup?",
+        "options": [
+          "Manual configuration only",
+          "Automated backup with intelligent defaults and customization",
+          "Not supported",
+          "Third-party only"
+        ],
+        "correct": 1,
+        "explanation": "Atlas provides automated backup with configurable options."
+      },
+      {
+        "id": "atlas_medium_53",
+        "question": "How does Atlas optimize scaling?",
+        "options": [
+          "Manual configuration only",
+          "Automated scaling with intelligent defaults and customization",
+          "Not supported",
+          "Third-party only"
+        ],
+        "correct": 1,
+        "explanation": "Atlas provides automated scaling with configurable options."
+      },
+      {
+        "id": "atlas_medium_54",
+        "question": "How does Atlas optimize monitoring?",
+        "options": [
+          "Manual configuration only",
+          "Automated monitoring with intelligent defaults and customization",
+          "Not supported",
+          "Third-party only"
+        ],
+        "correct": 1,
+        "explanation": "Atlas provides automated monitoring with configurable options."
+      },
+      {
+        "id": "atlas_medium_55",
+        "question": "How does Atlas optimize security?",
+        "options": [
+          "Manual configuration only",
+          "Automated security with intelligent defaults and customization",
+          "Not supported",
+          "Third-party only"
+        ],
+        "correct": 1,
+        "explanation": "Atlas provides automated security with configurable options."
+      },
+      {
+        "id": "atlas_medium_56",
+        "question": "How does Atlas detect when to scale up cluster tiers?",
+        "options": [
+          "Manual triggers only",
+          "Detects sustained higher demand and short-term peak traffic",
+          "Pre-scheduled intervals",
+          "Only when disk is full"
+        ],
+        "correct": 1,
+        "explanation": "Atlas reactive auto-scaling detects sustained higher demand and short-term peak traffic and adjusts cluster tier based on real-time resource usage."
+      },
+      {
+        "id": "atlas_medium_57",
+        "question": "What is the benefit of using a compound shard key?",
+        "options": [
+          "Faster queries only",
+          "Combines geographic locality with distribution",
+          "Reduces storage costs",
+          "Eliminates need for indexes"
+        ],
+        "correct": 1,
+        "explanation": "A compound shard key combining a low-cardinality field with a high-cardinality field gives both geographic locality and distribution."
+      },
+      {
+        "id": "atlas_medium_58",
+        "question": "What shard key strategy is best for write-heavy workloads needing uniform distribution?",
+        "options": [
+          "Compound shard key",
+          "Hashed shard key",
+          "Range-based shard key",
+          "UUID shard key"
+        ],
+        "correct": 1,
+        "explanation": "Hashed shard key is best for write-heavy workloads needing uniform distribution."
+      },
+      {
+        "id": "atlas_medium_59",
+        "question": "What limits horizontal scaling with low-cardinality shard keys?",
+        "options": [
+          "Memory constraints",
+          "Maximum chunk count equals unique key values",
+          "Network bandwidth",
+          "CPU limitations"
+        ],
+        "correct": 1,
+        "explanation": "Low-cardinality shard keys limit horizontal scaling because each unique key value resides in at most one chunk. For example, if you sharded by a field with only 5 distinct values, the cluster could have no more than 5 chunks."
+      },
+      {
+        "id": "atlas_medium_60",
+        "question": "What is the best shard key for query isolation?",
+        "options": [
+          "Any high-cardinality field",
+          "One that appears in every high-frequency query filter with high cardinality",
+          "The _id field",
+          "A timestamp field"
+        ],
+        "correct": 1,
+        "explanation": "The best shard key for query isolation is one that appears in every high-frequency query filter and has high enough cardinality to distribute data evenly."
+      }
+    ],
+    "hard": [
+      {
+        "id": "atlas_hard_1",
+        "question": "How does Atlas implement point-in-time recovery?",
+        "options": [
+          "Using daily snapshots only",
+          "Using continuous backup with oplog replay",
+          "Using transaction logs",
+          "Using file system snapshots"
+        ],
+        "correct": 1,
+        "explanation": "Point-in-time recovery uses continuous backup snapshots combined with oplog replay to restore to any point within the retention window."
+      },
+      {
+        "id": "atlas_hard_2",
+        "question": "What is the ESR (Extended Support Release) in MongoDB?",
+        "options": [
+          "A faster version",
+          "A long-term support version with extended maintenance",
+          "An enterprise-only release",
+          "A security-focused release"
+        ],
+        "correct": 1,
+        "explanation": "ESR versions receive maintenance and security updates for an extended period, ideal for production stability."
+      },
+      {
+        "id": "atlas_hard_3",
+        "question": "What is the purpose of the WiredTiger cache?",
+        "options": [
+          "Caching queries",
+          "In-memory cache for frequently accessed data and indexes",
+          "Caching connections",
+          "Caching backups"
+        ],
+        "correct": 1,
+        "explanation": "The WiredTiger cache stores frequently accessed data and indexes in memory for faster access."
+      },
+      {
+        "id": "atlas_hard_4",
+        "question": "How does MongoDB's MVCC (Multi-Version Concurrency Control) work?",
+        "options": [
+          "Using locks only",
+          "Maintaining multiple versions of documents for concurrent access",
+          "Using timestamps only",
+          "Using transaction IDs only"
+        ],
+        "correct": 1,
+        "explanation": "MVCC maintains multiple versions of documents, allowing readers and writers to work concurrently without blocking."
+      },
+      {
+        "id": "atlas_hard_5",
+        "question": "What is the purpose of Atlas's queryable backup?",
+        "options": [
+          "Faster backups",
+          "Ability to query backup snapshots without restoring",
+          "Compressed backups",
+          "Encrypted backups"
+        ],
+        "correct": 1,
+        "explanation": "Queryable backup allows you to run queries directly against backup snapshots without restoring to a cluster."
+      },
+      {
+        "id": "atlas_hard_6",
+        "question": "What is the majority write concern's durability guarantee?",
+        "options": [
+          "Written to primary only",
+          "Acknowledged by majority of voting members",
+          "Written to all nodes",
+          "Written to disk on primary"
+        ],
+        "correct": 1,
+        "explanation": "Majority write concern ensures the write is acknowledged by a majority of voting replica set members."
+      },
+      {
+        "id": "atlas_hard_7",
+        "question": "How does Atlas implement cross-region replication?",
+        "options": [
+          "Using separate clusters",
+          "Using replica set members across regions with priority-based failover",
+          "Using manual synchronization",
+          "Using third-party tools"
+        ],
+        "correct": 1,
+        "explanation": "Atlas distributes replica set members across regions with configurable priorities for failover control."
+      },
+      {
+        "id": "atlas_hard_8",
+        "question": "What is the difference between Atlas Search and text indexes?",
+        "options": [
+          "No difference",
+          "Atlas Search uses Lucene with advanced features, text indexes are basic",
+          "Text indexes are faster",
+          "Atlas Search is Atlas-only"
+        ],
+        "correct": 1,
+        "explanation": "Atlas Search uses Apache Lucene for advanced full-text search with relevance scoring, while text indexes provide basic text search."
+      },
+      {
+        "id": "atlas_hard_9",
+        "question": "What is the purpose of the serverStatus command?",
+        "options": [
+          "Checking if server is online",
+          "Comprehensive metrics on server performance and resource usage",
+          "Server configuration",
+          "Server logs"
+        ],
+        "correct": 1,
+        "explanation": "serverStatus returns detailed metrics about server operations, connections, memory, locks, and more."
+      },
+      {
+        "id": "atlas_hard_10",
+        "question": "How does MongoDB implement transactions?",
+        "options": [
+          "Using file locks",
+          "Using multi-document ACID transactions with two-phase commit",
+          "Using single-document atomicity only",
+          "Using eventual consistency"
+        ],
+        "correct": 1,
+        "explanation": "MongoDB supports multi-document ACID transactions using a two-phase commit protocol across replica sets."
+      },
+      {
+        "id": "atlas_hard_11",
+        "question": "What is the purpose of the balancer in sharded clusters?",
+        "options": [
+          "Load balancing queries",
+          "Migrating chunks to maintain even data distribution",
+          "Balancing network traffic",
+          "Balancing CPU usage"
+        ],
+        "correct": 1,
+        "explanation": "The balancer migrates chunks between shards to ensure even data distribution across the cluster."
+      },
+      {
+        "id": "atlas_hard_12",
+        "question": "What is the Zone Sharding feature?",
+        "options": [
+          "Timezone-based sharding",
+          "Associating shard key ranges with specific shards for data locality",
+          "Geographic sharding only",
+          "Availability zone distribution"
+        ],
+        "correct": 1,
+        "explanation": "Zone Sharding maps specific shard key ranges to designated shards for data locality and compliance."
+      },
+      {
+        "id": "atlas_hard_13",
+        "question": "What is the causal consistency guarantee?",
+        "options": [
+          "All reads are consistent",
+          "Reads reflect causally related writes in order",
+          "Reads are always from primary",
+          "Immediate consistency"
+        ],
+        "correct": 1,
+        "explanation": "Causal consistency ensures that read operations reflect causally related write operations in their correct order."
+      },
+      {
+        "id": "atlas_hard_14",
+        "question": "How does Atlas implement automated failover?",
+        "options": [
+          "Manual intervention required",
+          "Automatic election of new primary using Raft-based consensus",
+          "Using load balancers",
+          "Using DNS failover"
+        ],
+        "correct": 1,
+        "explanation": "Atlas uses a Raft-based election protocol to automatically elect a new primary when the current primary fails."
+      },
+      {
+        "id": "atlas_hard_15",
+        "question": "What is the snapshot isolation level?",
+        "options": [
+          "Reading from backups",
+          "Reading from a consistent point-in-time snapshot",
+          "Reading latest data",
+          "Reading from cache"
+        ],
+        "correct": 1,
+        "explanation": "Snapshot isolation provides reads from a consistent point-in-time view of the data, isolating from concurrent writes."
+      },
+      {
+        "id": "atlas_hard_16",
+        "question": "What is the purpose of Atlas's custom roles?",
+        "options": [
+          "UI customization",
+          "Fine-grained access control with specific privileges",
+          "Custom queries",
+          "Custom indexes"
+        ],
+        "correct": 1,
+        "explanation": "Custom roles allow defining precise privileges for database operations beyond built-in roles."
+      },
+      {
+        "id": "atlas_hard_17",
+        "question": "How does the $merge stage handle conflicts?",
+        "options": [
+          "Always overwrites",
+          "Configurable with whenMatched and whenNotMatched options",
+          "Always fails",
+          "Always keeps existing"
+        ],
+        "correct": 1,
+        "explanation": "$merge provides whenMatched and whenNotMatched options to control behavior for existing and new documents."
+      },
+      {
+        "id": "atlas_hard_18",
+        "question": "What is the purpose of retryable writes?",
+        "options": [
+          "Retrying failed connections",
+          "Automatic retry of write operations on transient network errors",
+          "Retrying slow queries",
+          "Retrying backups"
+        ],
+        "correct": 1,
+        "explanation": "Retryable writes automatically retry write operations exactly once on network errors or replica set elections."
+      },
+      {
+        "id": "atlas_hard_19",
+        "question": "What is the chunk size in sharding?",
+        "options": [
+          "Always 1MB",
+          "Default 64MB, configurable size for data distribution units",
+          "Always 128MB",
+          "Variable, never configured"
+        ],
+        "correct": 1,
+        "explanation": "Chunks are the units of data distribution in sharding, with a default size of 64MB that can be configured."
+      },
+      {
+        "id": "atlas_hard_20",
+        "question": "How does Atlas Search handle synonyms?",
+        "options": [
+          "Not supported",
+          "Using synonym mappings configured in search index definitions",
+          "Automatically detected",
+          "Using external dictionary only"
+        ],
+        "correct": 1,
+        "explanation": "Atlas Search supports synonym mappings defined in the search index configuration for query expansion."
+      },
+      {
+        "id": "atlas_hard_21",
+        "question": "What is the write throughput impact of journal commits?",
+        "options": [
+          "No impact",
+          "Periodic journal commits can create write latency spikes",
+          "Always improves performance",
+          "Only affects reads"
+        ],
+        "correct": 1,
+        "explanation": "Journal commits force data to disk periodically, which can cause brief write latency spikes during commit."
+      },
+      {
+        "id": "atlas_hard_22",
+        "question": "What is the purpose of the collation feature?",
+        "options": [
+          "Collecting data",
+          "Defining string comparison rules for sorting and matching",
+          "Combining collections",
+          "Compressing data"
+        ],
+        "correct": 1,
+        "explanation": "Collation defines language-specific string comparison rules for sorting, case sensitivity, and accent marks."
+      },
+      {
+        "id": "atlas_hard_23",
+        "question": "How does Atlas implement continuous backup differently from snapshot backup?",
+        "options": [
+          "No difference",
+          "Continuous uses oplog for point-in-time recovery, snapshot uses periodic copies",
+          "Continuous is faster",
+          "Snapshot is more reliable"
+        ],
+        "correct": 1,
+        "explanation": "Continuous backup combines snapshots with oplog capture for point-in-time recovery, while snapshot backup only provides periodic snapshots."
+      },
+      {
+        "id": "atlas_hard_24",
+        "question": "What is the aggregation pipeline optimization technique called 'pipeline coalescence'?",
+        "options": [
+          "Removing stages",
+          "Combining adjacent stages for better performance",
+          "Parallel execution",
+          "Caching results"
+        ],
+        "correct": 1,
+        "explanation": "Pipeline coalescence combines adjacent aggregation stages where possible to reduce processing overhead."
+      },
+      {
+        "id": "atlas_hard_25",
+        "question": "What is the linearizable read concern's performance trade-off?",
+        "options": [
+          "No trade-off",
+          "Slower reads ensuring primary status confirmation before each read",
+          "Faster but less accurate",
+          "Only works on secondaries"
+        ],
+        "correct": 1,
+        "explanation": "Linearizable read concern confirms the server is still primary before each read, adding latency for strong consistency."
+      },
+      {
+        "id": "atlas_hard_26",
+        "question": "How does the $out stage differ from $merge in aggregation?",
+        "options": [
+          "No difference",
+          "$out replaces entire collection, $merge can update/insert selectively",
+          "$out is faster",
+          "$merge only works on Atlas"
+        ],
+        "correct": 1,
+        "explanation": "$out replaces the entire target collection, while $merge can selectively update or insert documents."
+      },
+      {
+        "id": "atlas_hard_27",
+        "question": "What is the purpose of index intersection?",
+        "options": [
+          "Creating indexes",
+          "Using multiple indexes together to satisfy a query",
+          "Removing indexes",
+          "Merging indexes"
+        ],
+        "correct": 1,
+        "explanation": "Index intersection allows MongoDB to use multiple indexes together to satisfy complex query predicates."
+      },
+      {
+        "id": "atlas_hard_28",
+        "question": "What is the WiredTiger checkpoint process?",
+        "options": [
+          "Checking data integrity",
+          "Writing consistent snapshot of data to disk periodically",
+          "Validating indexes",
+          "Checking connections"
+        ],
+        "correct": 1,
+        "explanation": "WiredTiger checkpoints write a consistent snapshot of all data to disk, typically every 60 seconds."
+      },
+      {
+        "id": "atlas_hard_29",
+        "question": "How does Atlas Global Cluster handle write operations?",
+        "options": [
+          "All writes go to primary",
+          "Writes routed to zone-specific shards based on location field",
+          "Random distribution",
+          "Round-robin"
+        ],
+        "correct": 1,
+        "explanation": "Global Clusters route writes to specific shards based on the location/zone field for data locality."
+      },
+      {
+        "id": "atlas_hard_30",
+        "question": "What is the purpose of the sessions in MongoDB?",
+        "options": [
+          "User login sessions",
+          "Tracking causally related operations for consistency",
+          "HTTP sessions",
+          "Connection pooling"
+        ],
+        "correct": 1,
+        "explanation": "Sessions track causally related operations to support features like transactions and causal consistency."
+      },
+      {
+        "id": "atlas_hard_31",
+        "question": "What is the impact of using non-selective indexes?",
+        "options": [
+          "Always improves performance",
+          "Can degrade performance by scanning many index entries",
+          "No impact",
+          "Only affects writes"
+        ],
+        "correct": 1,
+        "explanation": "Non-selective indexes with low cardinality may require scanning many index entries, degrading query performance."
+      },
+      {
+        "id": "atlas_hard_32",
+        "question": "How does MongoDB implement index prefix compression?",
+        "options": [
+          "Not supported",
+          "WiredTiger compresses common prefixes in index keys",
+          "Only for text indexes",
+          "Only on compressed collections"
+        ],
+        "correct": 1,
+        "explanation": "WiredTiger uses prefix compression to reduce index size by storing common key prefixes once."
+      },
+      {
+        "id": "atlas_hard_33",
+        "question": "What is the purpose of the $setWindowFields aggregation stage?",
+        "options": [
+          "Setting window size",
+          "Performing calculations over a sliding window of documents",
+          "Opening windows",
+          "Setting time windows"
+        ],
+        "correct": 1,
+        "explanation": "$setWindowFields performs window function calculations over a defined window of documents."
+      },
+      {
+        "id": "atlas_hard_34",
+        "question": "How does Atlas implement tenant isolation in serverless?",
+        "options": [
+          "Separate servers",
+          "Using namespaces and resource limits per tenant",
+          "No isolation",
+          "Using VPCs only"
+        ],
+        "correct": 1,
+        "explanation": "Atlas Serverless uses namespace isolation and per-tenant resource limits to ensure tenant separation."
+      },
+      {
+        "id": "atlas_hard_35",
+        "question": "What is the hidden index feature?",
+        "options": [
+          "Encrypted indexes",
+          "Indexes excluded from query planner for testing removal impact",
+          "Internal indexes",
+          "Background indexes"
+        ],
+        "correct": 1,
+        "explanation": "Hidden indexes remain maintained but are excluded from the query planner, allowing safe testing before removal."
+      },
+      {
+        "id": "atlas_hard_36",
+        "question": "How does Atlas Data Federation implement virtual collections?",
+        "options": [
+          "Using views",
+          "Mapping federated data sources to virtual collection namespaces",
+          "Using temporary collections",
+          "Using caching"
+        ],
+        "correct": 1,
+        "explanation": "Data Federation maps S3 and Atlas data sources to virtual collection namespaces for unified querying."
+      },
+      {
+        "id": "atlas_hard_37",
+        "question": "What is the purpose of the planCacheSetFilter command?",
+        "options": [
+          "Filtering results",
+          "Restricting query planner to specific index choices",
+          "Clearing cache",
+          "Setting query filters"
+        ],
+        "correct": 1,
+        "explanation": "planCacheSetFilter limits which indexes the query planner can use for specific query patterns."
+      },
+      {
+        "id": "atlas_hard_38",
+        "question": "How does MongoDB's document validation strictness differ between 'strict' and 'moderate'?",
+        "options": [
+          "No difference",
+          "Strict validates all writes, moderate only validates valid documents",
+          "Moderate is stricter",
+          "Strict only validates inserts"
+        ],
+        "correct": 1,
+        "explanation": "Strict validation applies to all writes, while moderate validation only applies to documents that already meet the validation criteria."
+      },
+      {
+        "id": "atlas_hard_39",
+        "question": "What is the wildcard index feature?",
+        "options": [
+          "Indexing all fields",
+          "Indexing all values of a field or all fields matching a pattern",
+          "Random indexing",
+          "Flexible schema indexing"
+        ],
+        "correct": 1,
+        "explanation": "Wildcard indexes automatically index all values of specified fields or field patterns, useful for dynamic schemas."
+      },
+      {
+        "id": "atlas_hard_40",
+        "question": "How does Atlas implement encryption key rotation for encryption at rest?",
+        "options": [
+          "Manual only",
+          "Automatic rotation with re-encryption using cloud provider KMS",
+          "Not supported",
+          "Requires downtime"
+        ],
+        "correct": 1,
+        "explanation": "Atlas supports automatic encryption key rotation using cloud provider KMS without downtime or manual re-encryption."
+      },
+      {
+        "id": "atlas_hard_41",
+        "question": "What determines primary election in replica sets?",
+        "options": [
+          "Random",
+          "Highest priority, most recent data, majority votes via Raft",
+          "Oldest node",
+          "Fastest network"
+        ],
+        "correct": 1,
+        "explanation": "Elections use Raft consensus with priority, data freshness (OpTime), and majority voting."
+      },
+      {
+        "id": "atlas_hard_42",
+        "question": "What is rollback process for uncommitted writes?",
+        "options": [
+          "Data lost",
+          "Find common point, undo local ops, save to rollback files, resync",
+          "Auto retry",
+          "No rollback"
+        ],
+        "correct": 1,
+        "explanation": "Rollback undoes uncommitted operations, saves them to files, then resyncs from common point."
+      },
+      {
+        "id": "atlas_hard_43",
+        "question": "How does MongoDB achieve causal consistency?",
+        "options": [
+          "Timestamps only",
+          "Logical clocks and cluster time tracking",
+          "Locking all nodes",
+          "Not supported"
+        ],
+        "correct": 1,
+        "explanation": "Uses logical clocks and cluster time to ensure reads see causally related prior writes."
+      },
+      {
+        "id": "atlas_hard_44",
+        "question": "Purpose of speculative majority reads?",
+        "options": [
+          "Guess results",
+          "Reduce latency by reading likely-committed data without waiting",
+          "Cache data",
+          "Improve writes"
+        ],
+        "correct": 1,
+        "explanation": "Optimizes latency by reading data likely to achieve majority commit soon."
+      },
+      {
+        "id": "atlas_hard_45",
+        "question": "How does OplogApplier parallelize while maintaining consistency?",
+        "options": [
+          "No parallelization",
+          "Parallelize except same-document ops which are serialized",
+          "All parallel",
+          "All sequential"
+        ],
+        "correct": 1,
+        "explanation": "Uses multiple threads but serializes operations on the same document."
+      },
+      {
+        "id": "atlas_hard_46",
+        "question": "Difference between lastApplied, lastWritten, lastDurable?",
+        "options": [
+          "All same",
+          "lastApplied: in DB; lastWritten: in oplog/buffer; lastDurable: on disk",
+          "Just names",
+          "Only lastDurable matters"
+        ],
+        "correct": 1,
+        "explanation": "Three OpTime levels track application to DB, writing to oplog, and persistence to disk."
+      },
+      {
+        "id": "atlas_hard_47",
+        "question": "How does Atlas Search index differently?",
+        "options": [
+          "Same B-tree",
+          "Uses Lucene inverted indexes for text/vector search",
+          "No indexes",
+          "Only text"
+        ],
+        "correct": 1,
+        "explanation": "Uses Apache Lucene's inverted indexes optimized for full-text and vector search."
+      },
+      {
+        "id": "atlas_hard_48",
+        "question": "How are writes routed in Global Clusters vs reads?",
+        "options": [
+          "Same routing",
+          "Writes to global primary; reads to local zones",
+          "All local",
+          "All replicated immediately"
+        ],
+        "correct": 1,
+        "explanation": "Single global primary for writes; zone-local secondaries for reads."
+      },
+      {
+        "id": "atlas_hard_49",
+        "question": "Three-phase Initial Sync process?",
+        "options": [
+          "Copy, paste, validate",
+          "Collection copy, oplog application, final catch-up",
+          "Download, extract, load",
+          "No phases"
+        ],
+        "correct": 1,
+        "explanation": "Copy collections/indexes, apply concurrent ops, final sync to catch up completely."
+      },
+      {
+        "id": "atlas_hard_50",
+        "question": "How does read concern 'majority' differ from 'local'?",
+        "options": [
+          "No difference",
+          "'majority' only returns rollback-safe data; 'local' may return rollbackable data",
+          "'local' safer",
+          "Equal safety"
+        ],
+        "correct": 1,
+        "explanation": "'majority' ensures data is replicated to majority and cannot be rolled back."
+      },
+      {
+        "id": "atlas_hard_51",
+        "question": "How does Atlas handle election terms internally?",
+        "options": [
+          "Not applicable",
+          "Advanced election terms using MongoDB's distributed systems architecture",
+          "Third-party tool",
+          "Manual only"
+        ],
+        "correct": 1,
+        "explanation": "Atlas leverages MongoDB's sophisticated election terms mechanisms."
+      },
+      {
+        "id": "atlas_hard_52",
+        "question": "How does Atlas handle oplog optimization internally?",
+        "options": [
+          "Not applicable",
+          "Advanced oplog optimization using MongoDB's distributed systems architecture",
+          "Third-party tool",
+          "Manual only"
+        ],
+        "correct": 1,
+        "explanation": "Atlas leverages MongoDB's sophisticated oplog optimization mechanisms."
+      },
+      {
+        "id": "atlas_hard_53",
+        "question": "How does Atlas handle sync source selection internally?",
+        "options": [
+          "Not applicable",
+          "Advanced sync source selection using MongoDB's distributed systems architecture",
+          "Third-party tool",
+          "Manual only"
+        ],
+        "correct": 1,
+        "explanation": "Atlas leverages MongoDB's sophisticated sync source selection mechanisms."
+      },
+      {
+        "id": "atlas_hard_54",
+        "question": "How does Atlas handle write conflicts internally?",
+        "options": [
+          "Not applicable",
+          "Advanced write conflicts using MongoDB's distributed systems architecture",
+          "Third-party tool",
+          "Manual only"
+        ],
+        "correct": 1,
+        "explanation": "Atlas leverages MongoDB's sophisticated write conflicts mechanisms."
+      },
+      {
+        "id": "atlas_hard_55",
+        "question": "How does Atlas handle MVCC internally?",
+        "options": [
+          "Not applicable",
+          "Advanced MVCC using MongoDB's distributed systems architecture",
+          "Third-party tool",
+          "Manual only"
+        ],
+        "correct": 1,
+        "explanation": "Atlas leverages MongoDB's sophisticated MVCC mechanisms."
+      },
+      {
+        "id": "atlas_hard_56",
+        "question": "What CPU threshold triggers Atlas cluster tier scale-down and for how long must it persist?",
+        "options": [
+          "Below 30% for 1 hour",
+          "Below 40% for 2 hours",
+          "Below 50% for several hours",
+          "Below 60% for 30 minutes"
+        ],
+        "correct": 2,
+        "explanation": "Atlas scales down only after CPU consistently stays below approximately 50% for several hours."
+      },
+      {
+        "id": "atlas_hard_57",
+        "question": "How many distinct values can a shard key with cardinality of 5 support in terms of chunks?",
+        "options": [
+          "Unlimited chunks",
+          "No more than 5 chunks",
+          "10 chunks (2x cardinality)",
+          "25 chunks (5^2)"
+        ],
+        "correct": 1,
+        "explanation": "Each unique key value resides in at most one chunk, so a field with only 5 distinct values can have no more than 5 chunks maximum."
+      },
+      {
+        "id": "atlas_hard_58",
+        "question": "What happens to writes when using a monotonically increasing shard key?",
+        "options": [
+          "Evenly distributed across all shards",
+          "All writes go to the last chunk on highest-value shard",
+          "Randomly distributed",
+          "Round-robin across shards"
+        ],
+        "correct": 1,
+        "explanation": "Because chunks are ordered, all new inserts land in the last chunk on the highest-value shard, while other shards receive no new writes, creating a write hotspot."
+      }
+    ]
+  },
+  "ae": {
+    "easy": [
+      {
+        "id": "ae_easy_1",
+        "question": "What does AE stand for in MongoDB context?",
+        "options": [
+          "Advanced Encryption",
+          "Application Engineering",
+          "Atlas Enterprise",
+          "Automated Execution"
+        ],
+        "correct": 1,
+        "explanation": "AE stands for Application Engineering, focusing on building applications with MongoDB."
+      },
+      {
+        "id": "ae_easy_2",
+        "question": "What is the MongoDB driver?",
+        "options": [
+          "A database administrator",
+          "A library for connecting applications to MongoDB",
+          "A backup tool",
+          "A monitoring service"
+        ],
+        "correct": 1,
+        "explanation": "MongoDB drivers are language-specific libraries that allow applications to connect to and interact with MongoDB."
+      },
+      {
+        "id": "ae_easy_3",
+        "question": "Which programming languages have official MongoDB drivers?",
+        "options": [
+          "Only JavaScript",
+          "JavaScript, Python, Java, C#, and many others",
+          "Only Python",
+          "Only Java"
+        ],
+        "correct": 1,
+        "explanation": "MongoDB provides official drivers for many languages including JavaScript, Python, Java, C#, Go, Ruby, PHP, and more."
+      },
+      {
+        "id": "ae_easy_4",
+        "question": "What is the purpose of the MongoDB connection string?",
+        "options": [
+          "To encrypt data",
+          "To specify how to connect to a MongoDB instance",
+          "To validate queries",
+          "To compress data"
+        ],
+        "correct": 1,
+        "explanation": "The connection string (URI) contains all information needed to connect to MongoDB, including hosts, authentication, and options."
+      },
+      {
+        "id": "ae_easy_5",
+        "question": "What is CRUD in MongoDB?",
+        "options": [
+          "A backup strategy",
+          "Create, Read, Update, Delete operations",
+          "A replication method",
+          "A security feature"
+        ],
+        "correct": 1,
+        "explanation": "CRUD stands for Create, Read, Update, and Delete - the four basic operations for data manipulation."
+      },
+      {
+        "id": "ae_easy_6",
+        "question": "What method is used to insert a single document?",
+        "options": [
+          "insert()",
+          "insertOne()",
+          "add()",
+          "create()"
+        ],
+        "correct": 1,
+        "explanation": "insertOne() is the method used to insert a single document into a collection."
+      },
+      {
+        "id": "ae_easy_7",
+        "question": "What method retrieves documents from a collection?",
+        "options": [
+          "get()",
+          "find()",
+          "select()",
+          "retrieve()"
+        ],
+        "correct": 1,
+        "explanation": "find() is the primary method for querying and retrieving documents from a collection."
+      },
+      {
+        "id": "ae_easy_8",
+        "question": "What is the Mongo Shell?",
+        "options": [
+          "A GUI tool",
+          "An interactive JavaScript interface to MongoDB",
+          "A backup utility",
+          "A monitoring dashboard"
+        ],
+        "correct": 1,
+        "explanation": "The Mongo Shell (mongosh) is an interactive JavaScript interface for querying and managing MongoDB."
+      },
+      {
+        "id": "ae_easy_9",
+        "question": "What is a projection in MongoDB queries?",
+        "options": [
+          "Estimating query time",
+          "Specifying which fields to return",
+          "Predicting data growth",
+          "Creating forecasts"
+        ],
+        "correct": 1,
+        "explanation": "Projection specifies which fields should be included or excluded in query results."
+      },
+      {
+        "id": "ae_easy_10",
+        "question": "What does the limit() method do?",
+        "options": [
+          "Limits database size",
+          "Limits the number of documents returned",
+          "Limits query execution time",
+          "Limits user access"
+        ],
+        "correct": 1,
+        "explanation": "The limit() method restricts the number of documents returned by a query."
+      },
+      {
+        "id": "ae_easy_11",
+        "question": "What is the purpose of the sort() method?",
+        "options": [
+          "Organizing files",
+          "Ordering query results by specified fields",
+          "Cleaning data",
+          "Categorizing collections"
+        ],
+        "correct": 1,
+        "explanation": "The sort() method orders query results based on one or more fields in ascending or descending order."
+      },
+      {
+        "id": "ae_easy_12",
+        "question": "What does the updateOne() method do?",
+        "options": [
+          "Updates all documents",
+          "Updates a single document matching the filter",
+          "Updates indexes",
+          "Updates the database"
+        ],
+        "correct": 1,
+        "explanation": "updateOne() updates the first document that matches the specified filter criteria."
+      },
+      {
+        "id": "ae_easy_13",
+        "question": "What is the $set operator used for?",
+        "options": [
+          "Creating sets",
+          "Setting or adding field values in updates",
+          "Setting permissions",
+          "Setting indexes"
+        ],
+        "correct": 1,
+        "explanation": "$set is an update operator that sets the value of a field in a document."
+      },
+      {
+        "id": "ae_easy_14",
+        "question": "What does deleteOne() do?",
+        "options": [
+          "Deletes one collection",
+          "Deletes a single document matching the filter",
+          "Deletes one database",
+          "Deletes one field"
+        ],
+        "correct": 1,
+        "explanation": "deleteOne() removes the first document that matches the specified filter."
+      },
+      {
+        "id": "ae_easy_15",
+        "question": "What is the $in operator used for?",
+        "options": [
+          "Checking if value is inside",
+          "Matching any value in an array of values",
+          "Input validation",
+          "Inclusion queries"
+        ],
+        "correct": 1,
+        "explanation": "$in matches documents where the field value equals any value in a specified array."
+      },
+      {
+        "id": "ae_easy_16",
+        "question": "What does the count() method do?",
+        "options": [
+          "Counts databases",
+          "Returns the number of documents matching a query",
+          "Counts fields",
+          "Counts collections"
+        ],
+        "correct": 1,
+        "explanation": "count() (or countDocuments()) returns the number of documents that match a query filter."
+      },
+      {
+        "id": "ae_easy_17",
+        "question": "What is the purpose of the $gt operator?",
+        "options": [
+          "Getting data",
+          "Matching values greater than specified value",
+          "Global transactions",
+          "Group totals"
+        ],
+        "correct": 1,
+        "explanation": "$gt is a comparison operator that matches values greater than a specified value."
+      },
+      {
+        "id": "ae_easy_18",
+        "question": "What does the $and operator do?",
+        "options": [
+          "Adds values",
+          "Combines multiple query conditions with logical AND",
+          "Appends data",
+          "Aggregates data"
+        ],
+        "correct": 1,
+        "explanation": "$and performs a logical AND operation on an array of query expressions."
+      },
+      {
+        "id": "ae_easy_19",
+        "question": "What is the $or operator used for?",
+        "options": [
+          "Ordering results",
+          "Matching documents satisfying any of multiple conditions",
+          "Organizing data",
+          "Outputting results"
+        ],
+        "correct": 1,
+        "explanation": "$or performs a logical OR operation, matching documents that satisfy at least one condition."
+      },
+      {
+        "id": "ae_easy_20",
+        "question": "What is the MongoDB Aggregation Framework?",
+        "options": [
+          "A backup system",
+          "A pipeline for processing and transforming documents",
+          "A replication tool",
+          "A monitoring framework"
+        ],
+        "correct": 1,
+        "explanation": "The Aggregation Framework provides a pipeline-based approach for processing and transforming documents."
+      },
+      {
+        "id": "ae_easy_21",
+        "question": "What is the $match stage in aggregation?",
+        "options": [
+          "Matching patterns",
+          "Filtering documents like a query",
+          "Matching indexes",
+          "Matching schemas"
+        ],
+        "correct": 1,
+        "explanation": "$match filters documents in the aggregation pipeline, similar to the find() query."
+      },
+      {
+        "id": "ae_easy_22",
+        "question": "What does the $group stage do?",
+        "options": [
+          "Groups collections",
+          "Groups documents by a field and performs calculations",
+          "Creates user groups",
+          "Groups databases"
+        ],
+        "correct": 1,
+        "explanation": "$group groups documents by a specified identifier and can perform accumulator operations."
+      },
+      {
+        "id": "ae_easy_23",
+        "question": "What is the $project stage used for?",
+        "options": [
+          "Creating projects",
+          "Reshaping documents and including/excluding fields",
+          "Project management",
+          "Projecting data size"
+        ],
+        "correct": 1,
+        "explanation": "$project reshapes documents by including, excluding, or adding fields."
+      },
+      {
+        "id": "ae_easy_24",
+        "question": "What is the purpose of the $sort stage?",
+        "options": [
+          "Sorting files",
+          "Ordering documents in the pipeline",
+          "Organizing collections",
+          "Sorting algorithms"
+        ],
+        "correct": 1,
+        "explanation": "$sort orders documents in the aggregation pipeline by specified fields."
+      },
+      {
+        "id": "ae_easy_25",
+        "question": "What is the $limit stage?",
+        "options": [
+          "Setting limits",
+          "Restricting number of documents passing through pipeline",
+          "Limiting access",
+          "Limiting storage"
+        ],
+        "correct": 1,
+        "explanation": "$limit restricts the number of documents that pass to the next stage in the pipeline."
+      },
+      {
+        "id": "ae_easy_26",
+        "question": "What does the $skip stage do?",
+        "options": [
+          "Skips errors",
+          "Skips a specified number of documents",
+          "Skips validation",
+          "Bypasses security"
+        ],
+        "correct": 1,
+        "explanation": "$skip skips over a specified number of documents in the pipeline."
+      },
+      {
+        "id": "ae_easy_27",
+        "question": "What is MongoDB Compass used for by developers?",
+        "options": [
+          "Direction finding",
+          "Visually exploring data and building queries",
+          "Code compilation",
+          "Network routing"
+        ],
+        "correct": 1,
+        "explanation": "Compass allows developers to visually explore data, build queries, and analyze performance."
+      },
+      {
+        "id": "ae_easy_28",
+        "question": "What is the purpose of connection pooling?",
+        "options": [
+          "Sharing databases",
+          "Reusing database connections for better performance",
+          "Pooling data",
+          "Combining queries"
+        ],
+        "correct": 1,
+        "explanation": "Connection pooling maintains a pool of reusable database connections to improve application performance."
+      },
+      {
+        "id": "ae_easy_29",
+        "question": "What is the $exists operator?",
+        "options": [
+          "Checking database existence",
+          "Matching documents where a field exists or not",
+          "Validating data",
+          "Checking permissions"
+        ],
+        "correct": 1,
+        "explanation": "$exists matches documents based on whether a specified field exists or not."
+      },
+      {
+        "id": "ae_easy_30",
+        "question": "What is the $push operator used for?",
+        "options": [
+          "Pushing to production",
+          "Appending values to an array field",
+          "Publishing data",
+          "Promoting documents"
+        ],
+        "correct": 1,
+        "explanation": "$push appends a value to an array field during update operations."
+      },
+      {
+        "id": "ae_easy_31",
+        "question": "What does the $pull operator do?",
+        "options": [
+          "Extracts data",
+          "Removes values from an array field",
+          "Retrieves documents",
+          "Downloads data"
+        ],
+        "correct": 1,
+        "explanation": "$pull removes all instances of a value from an array field."
+      },
+      {
+        "id": "ae_easy_32",
+        "question": "What is the $inc operator?",
+        "options": [
+          "Including fields",
+          "Incrementing a numeric field value",
+          "Incorporating data",
+          "Indexing creation"
+        ],
+        "correct": 1,
+        "explanation": "$inc increments a numeric field by a specified amount."
+      },
+      {
+        "id": "ae_easy_33",
+        "question": "What is the purpose of the $unset operator?",
+        "options": [
+          "Undoing settings",
+          "Removing a field from documents",
+          "Clearing values",
+          "Resetting databases"
+        ],
+        "correct": 1,
+        "explanation": "$unset removes the specified field from documents during update operations."
+      },
+      {
+        "id": "ae_easy_34",
+        "question": "What is a cursor in MongoDB?",
+        "options": [
+          "A mouse pointer",
+          "A pointer to query results for iteration",
+          "A database connection",
+          "A data structure"
+        ],
+        "correct": 1,
+        "explanation": "A cursor is a pointer to the result set of a query, allowing iteration over documents."
+      },
+      {
+        "id": "ae_easy_35",
+        "question": "What does the distinct() method return?",
+        "options": [
+          "All documents",
+          "Unique values for a specified field",
+          "Filtered results",
+          "Sorted documents"
+        ],
+        "correct": 1,
+        "explanation": "distinct() returns an array of unique values for a specified field across documents."
+      },
+      {
+        "id": "ae_easy_36",
+        "question": "What is the $regex operator used for?",
+        "options": [
+          "Regular expressions",
+          "Pattern matching in string fields",
+          "Indexing",
+          "Replication"
+        ],
+        "correct": 1,
+        "explanation": "$regex provides regular expression pattern matching capabilities for string queries."
+      },
+      {
+        "id": "ae_easy_37",
+        "question": "What is the $size operator?",
+        "options": [
+          "Measuring storage",
+          "Matching arrays by number of elements",
+          "Sizing documents",
+          "Calculating data size"
+        ],
+        "correct": 1,
+        "explanation": "$size matches arrays based on the number of elements they contain."
+      },
+      {
+        "id": "ae_easy_38",
+        "question": "What does the $type operator check?",
+        "options": [
+          "Document type",
+          "BSON type of a field value",
+          "Collection type",
+          "Database type"
+        ],
+        "correct": 1,
+        "explanation": "$type selects documents where a field value is of a specified BSON type."
+      },
+      {
+        "id": "ae_easy_39",
+        "question": "What is the $elemMatch operator?",
+        "options": [
+          "Matching elements",
+          "Matching array elements satisfying multiple conditions",
+          "Finding matches",
+          "Element selection"
+        ],
+        "correct": 1,
+        "explanation": "$elemMatch matches documents containing an array element that satisfies all specified conditions."
+      },
+      {
+        "id": "ae_easy_40",
+        "question": "What is the insertMany() method?",
+        "options": [
+          "Inserting fields",
+          "Inserting multiple documents in one operation",
+          "Bulk updates",
+          "Mass deletion"
+        ],
+        "correct": 1,
+        "explanation": "insertMany() inserts multiple documents into a collection in a single operation."
+      },
+      {
+        "id": "ae_easy_41",
+        "question": "What does $match do?",
+        "options": [
+          "Joins documents",
+          "Filters documents like a query",
+          "Groups documents",
+          "Sorts documents"
+        ],
+        "correct": 1,
+        "explanation": "$match filters documents in aggregation, passing only matching ones to next stage."
+      },
+      {
+        "id": "ae_easy_42",
+        "question": "Purpose of $group?",
+        "options": [
+          "Filter",
+          "Group by identifier with optional accumulations",
+          "Sort",
+          "Limit"
+        ],
+        "correct": 1,
+        "explanation": "$group groups documents by _id expression and applies accumulators like $sum, $avg."
+      },
+      {
+        "id": "ae_easy_43",
+        "question": "What does $project do?",
+        "options": [
+          "Filters",
+          "Reshapes documents by including/excluding/adding fields",
+          "Joins",
+          "Sorts"
+        ],
+        "correct": 1,
+        "explanation": "$project reshapes document structure, passing specified or computed fields."
+      },
+      {
+        "id": "ae_easy_44",
+        "question": "What is $lookup for?",
+        "options": [
+          "Text search",
+          "Left outer join to another collection",
+          "Index lookup",
+          "Find duplicates"
+        ],
+        "correct": 1,
+        "explanation": "$lookup performs left outer joins with another collection (like SQL joins)."
+      },
+      {
+        "id": "ae_easy_45",
+        "question": "What does $unwind do?",
+        "options": [
+          "Removes array",
+          "Deconstructs array into multiple documents",
+          "Sorts array",
+          "Counts elements"
+        ],
+        "correct": 1,
+        "explanation": "$unwind creates separate document for each array element."
+      },
+      {
+        "id": "ae_easy_46",
+        "question": "What does $sort do?",
+        "options": [
+          "Filters",
+          "Orders documents by fields",
+          "Groups",
+          "Counts"
+        ],
+        "correct": 1,
+        "explanation": "$sort orders documents by specified fields (1 ascending, -1 descending)."
+      },
+      {
+        "id": "ae_easy_47",
+        "question": "Purpose of $limit?",
+        "options": [
+          "Max doc size",
+          "Restricts number of documents to next stage",
+          "Limits values",
+          "Limits time"
+        ],
+        "correct": 1,
+        "explanation": "$limit passes only first n documents to next stage."
+      },
+      {
+        "id": "ae_easy_48",
+        "question": "What does $skip do?",
+        "options": [
+          "Removes fields",
+          "Skips first n documents, passes rest",
+          "Skips errors",
+          "Skips duplicates"
+        ],
+        "correct": 1,
+        "explanation": "$skip bypasses first n documents, often used with $limit for pagination."
+      },
+      {
+        "id": "ae_easy_49",
+        "question": "What is $facet for?",
+        "options": [
+          "Deleting",
+          "Processing multiple aggregation pipelines in single stage",
+          "Creating indexes",
+          "Joining"
+        ],
+        "correct": 1,
+        "explanation": "$facet runs multiple pipelines on same input documents."
+      },
+      {
+        "id": "ae_easy_50",
+        "question": "What does $bucket do?",
+        "options": [
+          "Stores docs",
+          "Categorizes into buckets by boundaries",
+          "Deletes",
+          "Joins"
+        ],
+        "correct": 1,
+        "explanation": "$bucket groups documents into buckets based on boundaries, useful for histograms."
+      },
+      {
+        "id": "ae_easy_51",
+        "question": "What does $gt do?",
+        "options": [
+          "Equals",
+          "Greater than comparison",
+          "Less than",
+          "Not equals"
+        ],
+        "correct": 1,
+        "explanation": "$gt matches documents where field value is greater than specified value."
+      },
+      {
+        "id": "ae_easy_52",
+        "question": "What is $in for?",
+        "options": [
+          "Importing",
+          "Matching any value in array",
+          "Field exists",
+          "String contains"
+        ],
+        "correct": 1,
+        "explanation": "$in matches documents where field equals any value in specified array."
+      },
+      {
+        "id": "ae_easy_53",
+        "question": "What does $exists check?",
+        "options": [
+          "Null value",
+          "If field exists in document",
+          "Document exists",
+          "Index exists"
+        ],
+        "correct": 1,
+        "explanation": "$exists matches documents that have (or don't have) specified field."
+      },
+      {
+        "id": "ae_easy_54",
+        "question": "What is $eq for?",
+        "options": [
+          "Greater than",
+          "Equality comparison",
+          "Less than",
+          "Not equals"
+        ],
+        "correct": 1,
+        "explanation": "$eq matches documents where field equals specified value."
+      },
+      {
+        "id": "ae_easy_55",
+        "question": "What is $gte?",
+        "options": [
+          "Greater than or equal",
+          "Greater than or equal comparison",
+          "Get",
+          "Greater than everything"
+        ],
+        "correct": 1,
+        "explanation": "$gte matches values >= specified value."
+      },
+      {
+        "id": "ae_easy_56",
+        "question": "What is $lt?",
+        "options": [
+          "Limit",
+          "Less than comparison",
+          "List",
+          "Load"
+        ],
+        "correct": 1,
+        "explanation": "$lt matches documents where field < specified value."
+      },
+      {
+        "id": "ae_easy_57",
+        "question": "What does $lte do?",
+        "options": [
+          "Late",
+          "Less than or equal comparison",
+          "List entries",
+          "Load template"
+        ],
+        "correct": 1,
+        "explanation": "$lte matches values <= specified value."
+      },
+      {
+        "id": "ae_easy_58",
+        "question": "What is $ne for?",
+        "options": [
+          "New entry",
+          "Not equal comparison",
+          "Next",
+          "Network"
+        ],
+        "correct": 1,
+        "explanation": "$ne matches documents where field is not equal to specified value."
+      },
+      {
+        "id": "ae_easy_59",
+        "question": "What does $nin do?",
+        "options": [
+          "Nine",
+          "Not in - values not in array",
+          "New input",
+          "Network in"
+        ],
+        "correct": 1,
+        "explanation": "$nin matches documents where field not equal to any array value (opposite of $in)."
+      },
+      {
+        "id": "ae_easy_60",
+        "question": "Which method inserts one document?",
+        "options": [
+          "insert()",
+          "insertOne()",
+          "add()",
+          "create()"
+        ],
+        "correct": 1,
+        "explanation": "insertOne() inserts single document and returns inserted _id."
+      },
+      {
+        "id": "ae_easy_61",
+        "question": "Which inserts multiple documents?",
+        "options": [
+          "insertOne()",
+          "insertMany()",
+          "insertAll()",
+          "bulkInsert()"
+        ],
+        "correct": 1,
+        "explanation": "insertMany() inserts array of documents in single operation."
+      },
+      {
+        "id": "ae_easy_62",
+        "question": "What does find() return?",
+        "options": [
+          "Single doc",
+          "Cursor to matching documents",
+          "Count",
+          "Array of all"
+        ],
+        "correct": 1,
+        "explanation": "find() returns cursor that iterates over matching documents."
+      },
+      {
+        "id": "ae_easy_63",
+        "question": "What does findOne() return?",
+        "options": [
+          "Cursor",
+          "Single document or null",
+          "Array",
+          "Multiple docs"
+        ],
+        "correct": 1,
+        "explanation": "findOne() returns one matching document or null if none found."
+      },
+      {
+        "id": "ae_easy_64",
+        "question": "Which updates one document?",
+        "options": [
+          "update()",
+          "updateOne()",
+          "modify()",
+          "change()"
+        ],
+        "correct": 1,
+        "explanation": "updateOne() updates first document matching filter."
+      },
+      {
+        "id": "ae_easy_65",
+        "question": "Which updates multiple?",
+        "options": [
+          "updateOne()",
+          "updateMany()",
+          "updateAll()",
+          "massUpdate()"
+        ],
+        "correct": 1,
+        "explanation": "updateMany() updates all documents matching filter."
+      },
+      {
+        "id": "ae_easy_66",
+        "question": "Which deletes one document?",
+        "options": [
+          "remove()",
+          "deleteOne()",
+          "erase()",
+          "drop()"
+        ],
+        "correct": 1,
+        "explanation": "deleteOne() deletes first document matching filter."
+      },
+      {
+        "id": "ae_easy_67",
+        "question": "Which deletes multiple?",
+        "options": [
+          "deleteOne()",
+          "deleteMany()",
+          "removeAll()",
+          "dropAll()"
+        ],
+        "correct": 1,
+        "explanation": "deleteMany() deletes all documents matching filter."
+      },
+      {
+        "id": "ae_easy_68",
+        "question": "What is compound index?",
+        "options": [
+          "Complex data index",
+          "Index on multiple fields",
+          "Compressed index",
+          "Conditional index"
+        ],
+        "correct": 1,
+        "explanation": "Compound index indexes multiple fields, supporting queries on all or prefix fields."
+      },
+      {
+        "id": "ae_easy_69",
+        "question": "What is text index for?",
+        "options": [
+          "Indexing numbers",
+          "Full-text search on strings",
+          "Indexing dates",
+          "Compressing text"
+        ],
+        "correct": 1,
+        "explanation": "Text indexes support text search with stemming and language processing."
+      },
+      {
+        "id": "ae_easy_70",
+        "question": "What is geospatial index for?",
+        "options": [
+          "Sorting",
+          "Queries based on geographic coordinates",
+          "Text search",
+          "Counting"
+        ],
+        "correct": 1,
+        "explanation": "Geospatial indexes (2d/2dsphere) support location-based queries."
+      },
+      {
+        "id": "ae_easy_71",
+        "question": "What does wildcard index do?",
+        "options": [
+          "Indexes everything",
+          "Indexes all fields or pattern-matching fields",
+          "Deletes indexes",
+          "Wildcard searches"
+        ],
+        "correct": 1,
+        "explanation": "Wildcard indexes index all or pattern-matching fields for unpredictable query patterns."
+      },
+      {
+        "id": "ae_easy_72",
+        "question": "What is partial index?",
+        "options": [
+          "Incomplete",
+          "Index only on documents matching filter",
+          "Part of field",
+          "Temporary"
+        ],
+        "correct": 1,
+        "explanation": "Partial indexes index only documents matching filter expression."
+      },
+      {
+        "id": "ae_easy_73",
+        "question": "What is sparse index?",
+        "options": [
+          "Small",
+          "Indexes only documents with the field",
+          "Has gaps",
+          "Temporary"
+        ],
+        "correct": 1,
+        "explanation": "Sparse indexes only include documents containing the indexed field."
+      },
+      {
+        "id": "ae_easy_74",
+        "question": "What is TTL index?",
+        "options": [
+          "Time To Load",
+          "Time To Live - auto-removes docs after time",
+          "Total Time Limit",
+          "Text To List"
+        ],
+        "correct": 1,
+        "explanation": "TTL indexes automatically delete documents after specified period based on date field."
+      },
+      {
+        "id": "ae_easy_75",
+        "question": "What does unique index enforce?",
+        "options": [
+          "Fast queries",
+          "No duplicate values for indexed fields",
+          "Sorted order",
+          "Compression"
+        ],
+        "correct": 1,
+        "explanation": "Unique indexes reject insertions/updates creating duplicate values."
+      },
+      {
+        "id": "ae_easy_76",
+        "question": "What is hashed index for?",
+        "options": [
+          "Encryption",
+          "Hashing values for shard keys and equality queries",
+          "Compression",
+          "Security"
+        ],
+        "correct": 1,
+        "explanation": "Hashed indexes compute hash of field, used for shard keys and even distribution."
+      },
+      {
+        "id": "ae_easy_77",
+        "question": "What is primary node?",
+        "options": [
+          "Backup",
+          "Only node receiving write operations",
+          "Oldest",
+          "Largest"
+        ],
+        "correct": 1,
+        "explanation": "Primary is the only replica set node receiving writes."
+      },
+      {
+        "id": "ae_easy_78",
+        "question": "What are secondaries?",
+        "options": [
+          "Backup primaries",
+          "Nodes replicating primary data, can serve reads",
+          "Temporary",
+          "Read-only, cannot serve queries"
+        ],
+        "correct": 1,
+        "explanation": "Secondaries replicate primary's data and can optionally serve reads."
+      },
+      {
+        "id": "ae_easy_79",
+        "question": "What is election?",
+        "options": [
+          "Choosing queries",
+          "Selecting new primary when current unavailable",
+          "Selecting docs to index",
+          "Choosing sync source"
+        ],
+        "correct": 1,
+        "explanation": "Elections select new primary when current primary becomes unavailable."
+      },
+      {
+        "id": "ae_easy_80",
+        "question": "How long is typical election?",
+        "options": [
+          "1-2 min",
+          "5-15 seconds",
+          "30s-1min",
+          "Several minutes"
+        ],
+        "correct": 1,
+        "explanation": "Most elections complete within 5-15 seconds."
+      },
+      {
+        "id": "ae_easy_81",
+        "question": "What is mongos router?",
+        "options": [
+          "Storage node",
+          "Query router directing ops to shards",
+          "Backup service",
+          "Index optimizer"
+        ],
+        "correct": 1,
+        "explanation": "mongos routes queries and operations to appropriate shards."
+      },
+      {
+        "id": "ae_easy_82",
+        "question": "What do config servers store?",
+        "options": [
+          "User data",
+          "Cluster metadata including chunk distributions",
+          "Backups",
+          "Logs"
+        ],
+        "correct": 1,
+        "explanation": "Config servers store metadata about chunk locations and configuration."
+      },
+      {
+        "id": "ae_easy_83",
+        "question": "What is shard key?",
+        "options": [
+          "Password",
+          "Field(s) used to distribute documents across shards",
+          "Encryption key",
+          "Primary key"
+        ],
+        "correct": 1,
+        "explanation": "Shard key determines how documents are distributed across shards."
+      },
+      {
+        "id": "ae_easy_84",
+        "question": "What does $inc do?",
+        "options": [
+          "Includes field",
+          "Increments field value by amount",
+          "Increases doc size",
+          "Indexes field"
+        ],
+        "correct": 1,
+        "explanation": "$inc increments (or decrements if negative) field value."
+      },
+      {
+        "id": "ae_easy_85",
+        "question": "What does $push do?",
+        "options": [
+          "Pushes to collection",
+          "Appends value to array",
+          "Uploads",
+          "Promotes secondary"
+        ],
+        "correct": 1,
+        "explanation": "$push appends value to array field."
+      },
+      {
+        "id": "ae_easy_86",
+        "question": "What does $pull do?",
+        "options": [
+          "Downloads",
+          "Removes array elements matching condition",
+          "Pulls from collection",
+          "Promotes node"
+        ],
+        "correct": 1,
+        "explanation": "$pull removes all array elements matching condition."
+      },
+      {
+        "id": "ae_easy_87",
+        "question": "What is $addToSet for?",
+        "options": [
+          "Adding fields",
+          "Adding value to array only if not present",
+          "Creating indexes",
+          "Joining"
+        ],
+        "correct": 1,
+        "explanation": "$addToSet adds value to array only if doesn't exist (treats array as set)."
+      },
+      {
+        "id": "ae_easy_88",
+        "question": "What does $pop do?",
+        "options": [
+          "Deletes docs",
+          "Removes first or last array element",
+          "Pops alert",
+          "Creates backup"
+        ],
+        "correct": 1,
+        "explanation": "$pop removes first (-1) or last (1) element from array."
+      },
+      {
+        "id": "ae_easy_89",
+        "question": "What does $rename do?",
+        "options": [
+          "Renames collections",
+          "Renames field in documents",
+          "Renames databases",
+          "Renames indexes"
+        ],
+        "correct": 1,
+        "explanation": "$rename changes field name in documents."
+      },
+      {
+        "id": "ae_easy_90",
+        "question": "What does $currentDate do?",
+        "options": [
+          "Queries by date",
+          "Sets field to current date/timestamp",
+          "Formats dates",
+          "Sorts by date"
+        ],
+        "correct": 1,
+        "explanation": "$currentDate sets field value to current date or timestamp."
+      },
+      {
+        "id": "ae_easy_91",
+        "question": "What is data modeling pattern in MongoDB?",
+        "options": [
+          "Not a MongoDB concept",
+          "Reusable schema solution",
+          "Deprecated feature",
+          "Third-party tool"
+        ],
+        "correct": 1,
+        "explanation": "Data modeling patterns solve common schema challenges."
+      },
+      {
+        "id": "ae_easy_92",
+        "question": "What is ObjectId in MongoDB?",
+        "options": [
+          "Not a MongoDB concept",
+          "Default _id type",
+          "Deprecated feature",
+          "Third-party tool"
+        ],
+        "correct": 1,
+        "explanation": "ObjectId is auto-generated unique identifier type."
+      },
+      {
+        "id": "ae_easy_93",
+        "question": "What is dot notation in MongoDB?",
+        "options": [
+          "Not a MongoDB concept",
+          "Querying nested fields",
+          "Deprecated feature",
+          "Third-party tool"
+        ],
+        "correct": 1,
+        "explanation": "Dot notation queries nested fields like address.city."
+      },
+      {
+        "id": "ae_easy_94",
+        "question": "What is embedded document in MongoDB?",
+        "options": [
+          "Not a MongoDB concept",
+          "Document within document",
+          "Deprecated feature",
+          "Third-party tool"
+        ],
+        "correct": 1,
+        "explanation": "Embedded documents nest data within parent document."
+      },
+      {
+        "id": "ae_easy_95",
+        "question": "What is max document size in MongoDB?",
+        "options": [
+          "Not a MongoDB concept",
+          "16 MB BSON limit",
+          "Deprecated feature",
+          "Third-party tool"
+        ],
+        "correct": 1,
+        "explanation": "MongoDB documents have 16MB maximum size."
+      },
+      {
+        "id": "ae_easy_96",
+        "question": "What is atomicity in MongoDB?",
+        "options": [
+          "Not a MongoDB concept",
+          "Single-doc all-or-nothing",
+          "Deprecated feature",
+          "Third-party tool"
+        ],
+        "correct": 1,
+        "explanation": "Atomicity ensures single-document operations complete fully or not at all."
+      },
+      {
+        "id": "ae_easy_97",
+        "question": "What is $merge in MongoDB?",
+        "options": [
+          "Not a MongoDB concept",
+          "Writes aggregation to collection",
+          "Deprecated feature",
+          "Third-party tool"
+        ],
+        "correct": 1,
+        "explanation": "$merge writes aggregation results to collection."
+      },
+      {
+        "id": "ae_easy_98",
+        "question": "What is $out in MongoDB?",
+        "options": [
+          "Not a MongoDB concept",
+          "Replaces collection with results",
+          "Deprecated feature",
+          "Third-party tool"
+        ],
+        "correct": 1,
+        "explanation": "$out replaces collection with aggregation results."
+      },
+      {
+        "id": "ae_easy_99",
+        "question": "What read concern level is recommended for production transactions?",
+        "options": [
+          "local",
+          "available",
+          "snapshot",
+          "linearizable"
+        ],
+        "correct": 2,
+        "explanation": "Read concern 'snapshot' returns data from a snapshot of majority committed data if the transaction commits with write concern 'majority', providing consistency across reads."
+      },
+      {
+        "id": "ae_easy_100",
+        "question": "What write concern level should production transactions use?",
+        "options": [
+          "w: 1",
+          "w: 0",
+          "w: 'majority'",
+          "j: false"
+        ],
+        "correct": 2,
+        "explanation": "MongoDB transaction write concern should always be set to w: 'majority' for production use to guarantee that committed transactions survive replica set failovers."
+      },
+      {
+        "id": "ae_easy_101",
+        "question": "How many read concern levels does MongoDB support?",
+        "options": [
+          "Three",
+          "Four",
+          "Five",
+          "Six"
+        ],
+        "correct": 2,
+        "explanation": "MongoDB supports five read concern levels: local, available, majority, linearizable, and snapshot."
+      },
+      {
+        "id": "ae_easy_103",
+        "question": "What does the 'j: true' write concern option require?",
+        "options": [
+          "Write to primary only",
+          "Write to majority of nodes",
+          "Write to be written to the journal before acknowledgment",
+          "Write to all nodes"
+        ],
+        "correct": 2,
+        "explanation": "j: true requires the write to be written to the journal before acknowledgment, providing durability guarantees."
+      },
+      {
+        "id": "ae_easy_104",
+        "question": "What does read concern 'snapshot' provide in transactions?",
+        "options": [
+          "Latest data only",
+          "Consistent snapshot of data across all reads",
+          "Fastest reads",
+          "Random data points"
+        ],
+        "correct": 1,
+        "explanation": "All reads within a multi-document transaction with snapshot read concern see a consistent snapshot of data."
+      },
+      {
+        "id": "ae_easy_105",
+        "question": "What problem can occur with 'local' read concern in transactions?",
+        "options": [
+          "Slower performance",
+          "Read skew if another transaction commits between reads",
+          "Higher memory usage",
+          "Cannot read any data"
+        ],
+        "correct": 1,
+        "explanation": "Local read concern inside a transaction reads the most recent data but without snapshot isolation and can cause read skew if another transaction commits between two reads in the same transaction."
+      }
+    ],
+    "medium": [
+      {
+        "id": "ae_medium_1",
+        "question": "What is the purpose of the $addFields stage in aggregation?",
+        "options": [
+          "Adding collections",
+          "Adding new computed fields to documents",
+          "Adding indexes",
+          "Adding users"
+        ],
+        "correct": 1,
+        "explanation": "$addFields adds new fields to documents, including computed fields, without removing existing fields."
+      },
+      {
+        "id": "ae_medium_2",
+        "question": "How does the $sum accumulator work in $group?",
+        "options": [
+          "Adds documents",
+          "Calculates sum of numeric values across grouped documents",
+          "Counts documents",
+          "Summarizes text"
+        ],
+        "correct": 1,
+        "explanation": "$sum calculates the sum of numeric values for documents in each group."
+      },
+      {
+        "id": "ae_medium_3",
+        "question": "What is the $avg accumulator?",
+        "options": [
+          "Averaging performance",
+          "Calculating average of numeric values in a group",
+          "Finding middle values",
+          "Balancing loads"
+        ],
+        "correct": 1,
+        "explanation": "$avg calculates the average value of numeric fields across grouped documents."
+      },
+      {
+        "id": "ae_medium_4",
+        "question": "What does the $arrayElemAt operator do?",
+        "options": [
+          "Adds array elements",
+          "Returns element at specified array index",
+          "Counts array size",
+          "Sorts arrays"
+        ],
+        "correct": 1,
+        "explanation": "$arrayElemAt returns the element at the specified array index position."
+      },
+      {
+        "id": "ae_medium_5",
+        "question": "What is the purpose of the $cond operator?",
+        "options": [
+          "Conditional compilation",
+          "Ternary if-then-else expression in aggregation",
+          "Conditional updates",
+          "Connection conditions"
+        ],
+        "correct": 1,
+        "explanation": "$cond evaluates a boolean expression and returns one of two specified values based on the result."
+      },
+      {
+        "id": "ae_medium_6",
+        "question": "What does the $objectToArray operator do?",
+        "options": [
+          "Converts objects to arrays",
+          "Converts document to array of key-value pairs",
+          "Creates object arrays",
+          "Arrays objects together"
+        ],
+        "correct": 1,
+        "explanation": "$objectToArray converts a document into an array of key-value pair objects."
+      },
+      {
+        "id": "ae_medium_7",
+        "question": "What is the $arrayToObject operator?",
+        "options": [
+          "Creates arrays",
+          "Converts array of key-value pairs to a document",
+          "Transforms objects",
+          "Merges arrays"
+        ],
+        "correct": 1,
+        "explanation": "$arrayToObject converts an array of key-value pairs into a document object."
+      },
+      {
+        "id": "ae_medium_8",
+        "question": "What does the $concat operator do?",
+        "options": [
+          "Concatenates collections",
+          "Concatenates strings together",
+          "Combines documents",
+          "Merges databases"
+        ],
+        "correct": 1,
+        "explanation": "$concat concatenates multiple string values into a single string."
+      },
+      {
+        "id": "ae_medium_9",
+        "question": "What is the $substr operator used for?",
+        "options": [
+          "Substitution",
+          "Extracting substring from a string",
+          "Subtracting strings",
+          "String submission"
+        ],
+        "correct": 1,
+        "explanation": "$substr extracts a substring from a string starting at a specified position."
+      },
+      {
+        "id": "ae_medium_10",
+        "question": "What does the $toLower operator do?",
+        "options": [
+          "Lowers values",
+          "Converts string to lowercase",
+          "Reduces numbers",
+          "Downgrades data"
+        ],
+        "correct": 1,
+        "explanation": "$toLower converts a string to lowercase letters."
+      },
+      {
+        "id": "ae_medium_11",
+        "question": "What is the purpose of the $dateToString operator?",
+        "options": [
+          "Dating strings",
+          "Formatting dates as strings with specified format",
+          "Converting dates",
+          "String dating"
+        ],
+        "correct": 1,
+        "explanation": "$dateToString converts a date to a string according to a specified format."
+      },
+      {
+        "id": "ae_medium_12",
+        "question": "What does the $ifNull operator do?",
+        "options": [
+          "Checks nulls",
+          "Returns alternative value if field is null",
+          "Nullifies fields",
+          "Validates nulls"
+        ],
+        "correct": 1,
+        "explanation": "$ifNull returns a specified value if the expression evaluates to null, otherwise returns the expression value."
+      },
+      {
+        "id": "ae_medium_13",
+        "question": "What is the $filter array operator?",
+        "options": [
+          "Filtering queries",
+          "Selecting array elements matching a condition",
+          "Cleaning arrays",
+          "Removing documents"
+        ],
+        "correct": 1,
+        "explanation": "$filter selects a subset of array elements that match a specified condition."
+      },
+      {
+        "id": "ae_medium_14",
+        "question": "What does the $map array operator do?",
+        "options": [
+          "Creates maps",
+          "Applies expression to each array element",
+          "Maps databases",
+          "Geographic mapping"
+        ],
+        "correct": 1,
+        "explanation": "$map applies an expression to each element in an array and returns an array with the results."
+      },
+      {
+        "id": "ae_medium_15",
+        "question": "What is the $reduce array operator?",
+        "options": [
+          "Reducing size",
+          "Applying expression cumulatively to array elements",
+          "Minimizing arrays",
+          "Compressing data"
+        ],
+        "correct": 1,
+        "explanation": "$reduce applies an expression to each element in an array to reduce it to a single value."
+      },
+      {
+        "id": "ae_medium_16",
+        "question": "What does the updateMany() method do?",
+        "options": [
+          "Updates databases",
+          "Updates all documents matching the filter",
+          "Updates collections",
+          "Batch processing"
+        ],
+        "correct": 1,
+        "explanation": "updateMany() updates all documents that match the specified filter criteria."
+      },
+      {
+        "id": "ae_medium_17",
+        "question": "What is the deleteMany() method?",
+        "options": [
+          "Deletes collections",
+          "Deletes all documents matching the filter",
+          "Drops databases",
+          "Removes fields"
+        ],
+        "correct": 1,
+        "explanation": "deleteMany() removes all documents that match the specified filter."
+      },
+      {
+        "id": "ae_medium_18",
+        "question": "What is the purpose of the upsert option?",
+        "options": [
+          "Upset handling",
+          "Insert if no match, update if match exists",
+          "Upgrading data",
+          "Upward sorting"
+        ],
+        "correct": 1,
+        "explanation": "The upsert option inserts a new document if no matching document exists, or updates if a match is found."
+      },
+      {
+        "id": "ae_medium_19",
+        "question": "What does the $multiply operator do?",
+        "options": [
+          "Duplicates documents",
+          "Multiplies numeric values",
+          "Increases replication",
+          "Multi-processing"
+        ],
+        "correct": 1,
+        "explanation": "$multiply multiplies numeric values together and returns the result."
+      },
+      {
+        "id": "ae_medium_20",
+        "question": "What is the $divide operator?",
+        "options": [
+          "Dividing collections",
+          "Dividing one number by another",
+          "Splitting documents",
+          "Partitioning data"
+        ],
+        "correct": 1,
+        "explanation": "$divide divides one number by another and returns the result."
+      },
+      {
+        "id": "ae_medium_21",
+        "question": "What does the $mod operator return?",
+        "options": [
+          "Mode value",
+          "Remainder of division",
+          "Modified documents",
+          "Modular data"
+        ],
+        "correct": 1,
+        "explanation": "$mod returns the remainder of dividing one number by another."
+      },
+      {
+        "id": "ae_medium_22",
+        "question": "What is the purpose of the explain() method's executionStats mode?",
+        "options": [
+          "Executing queries",
+          "Detailed query execution statistics and performance metrics",
+          "Statistical analysis",
+          "Execution planning"
+        ],
+        "correct": 1,
+        "explanation": "executionStats mode provides detailed information about query execution including documents examined and execution time."
+      },
+      {
+        "id": "ae_medium_23",
+        "question": "What does the $slice operator do with arrays?",
+        "options": [
+          "Cuts arrays",
+          "Returns subset of array elements",
+          "Divides arrays",
+          "Splits documents"
+        ],
+        "correct": 1,
+        "explanation": "$slice returns a specified number of elements from an array, from the beginning, end, or a specific position."
+      },
+      {
+        "id": "ae_medium_24",
+        "question": "What is the $position modifier used for?",
+        "options": [
+          "Positioning documents",
+          "Specifying position for array element insertion",
+          "Finding locations",
+          "Ordering results"
+        ],
+        "correct": 1,
+        "explanation": "$position specifies the location in an array at which to insert new elements during update."
+      },
+      {
+        "id": "ae_medium_25",
+        "question": "What does the $each modifier do?",
+        "options": [
+          "Iterating documents",
+          "Specifying multiple values for array operations",
+          "Processing each field",
+          "Looping queries"
+        ],
+        "correct": 1,
+        "explanation": "$each specifies multiple values to add to an array field in update operations."
+      },
+      {
+        "id": "ae_medium_26",
+        "question": "What is the $addToSet operator?",
+        "options": [
+          "Adding sets",
+          "Adding value to array only if not already present",
+          "Creating collections",
+          "Set operations"
+        ],
+        "correct": 1,
+        "explanation": "$addToSet adds a value to an array only if the value is not already present, ensuring uniqueness."
+      },
+      {
+        "id": "ae_medium_27",
+        "question": "What does the $currentDate operator do?",
+        "options": [
+          "Gets current date",
+          "Sets field to current date or timestamp",
+          "Filters by date",
+          "Date validation"
+        ],
+        "correct": 1,
+        "explanation": "$currentDate sets the value of a field to the current date or timestamp."
+      },
+      {
+        "id": "ae_medium_28",
+        "question": "What is the $rename operator used for?",
+        "options": [
+          "Renaming databases",
+          "Renaming document fields",
+          "Renaming collections",
+          "Changing names"
+        ],
+        "correct": 1,
+        "explanation": "$rename renames a field in a document during update operations."
+      },
+      {
+        "id": "ae_medium_29",
+        "question": "What does the $min operator do in updates?",
+        "options": [
+          "Finds minimum",
+          "Updates field only if new value is less than current",
+          "Minimizes size",
+          "Reduces values"
+        ],
+        "correct": 1,
+        "explanation": "$min updates a field only if the specified value is less than the current field value."
+      },
+      {
+        "id": "ae_medium_30",
+        "question": "What is the $max operator in updates?",
+        "options": [
+          "Maximizes performance",
+          "Updates field only if new value is greater than current",
+          "Finds maximum",
+          "Increases values"
+        ],
+        "correct": 1,
+        "explanation": "$max updates a field only if the specified value is greater than the current field value."
+      },
+      {
+        "id": "ae_medium_31",
+        "question": "What does the $replaceRoot stage do?",
+        "options": [
+          "Replaces databases",
+          "Promotes embedded document to top level",
+          "Changes collections",
+          "Root access"
+        ],
+        "correct": 1,
+        "explanation": "$replaceRoot replaces the input document with the specified document, often promoting an embedded document."
+      },
+      {
+        "id": "ae_medium_32",
+        "question": "What is the $bucket aggregation stage?",
+        "options": [
+          "Storage buckets",
+          "Categorizing documents into buckets based on expression",
+          "Data containers",
+          "Grouping collections"
+        ],
+        "correct": 1,
+        "explanation": "$bucket categorizes documents into buckets based on a specified expression and bucket boundaries."
+      },
+      {
+        "id": "ae_medium_33",
+        "question": "What does the $sortByCount stage do?",
+        "options": [
+          "Sorts by size",
+          "Groups by value and sorts by count descending",
+          "Counts sorts",
+          "Sorting algorithm"
+        ],
+        "correct": 1,
+        "explanation": "$sortByCount groups documents by a specified expression and sorts by count in descending order."
+      },
+      {
+        "id": "ae_medium_34",
+        "question": "What is the $sample stage?",
+        "options": [
+          "Creating samples",
+          "Randomly selecting specified number of documents",
+          "Testing data",
+          "Sampling rate"
+        ],
+        "correct": 1,
+        "explanation": "$sample randomly selects a specified number of documents from the input."
+      },
+      {
+        "id": "ae_medium_35",
+        "question": "What does the $redact stage do?",
+        "options": [
+          "Removes data",
+          "Restricts document content based on access levels",
+          "Redacting text",
+          "Hiding fields"
+        ],
+        "correct": 1,
+        "explanation": "$redact restricts the content of documents based on information stored in the documents themselves."
+      },
+      {
+        "id": "ae_medium_36",
+        "question": "What is the purpose of the $switch operator?",
+        "options": [
+          "Switching databases",
+          "Multi-branch conditional expression",
+          "Toggling options",
+          "Changing modes"
+        ],
+        "correct": 1,
+        "explanation": "$switch evaluates multiple case expressions and executes a specified expression when a case is true."
+      },
+      {
+        "id": "ae_medium_37",
+        "question": "What does the $range operator create?",
+        "options": [
+          "Data ranges",
+          "Array of integers within specified range",
+          "Range queries",
+          "Value spans"
+        ],
+        "correct": 1,
+        "explanation": "$range creates an array containing a sequence of integers based on start, end, and step values."
+      },
+      {
+        "id": "ae_medium_38",
+        "question": "What is the $reverseArray operator?",
+        "options": [
+          "Reverse lookup",
+          "Returns array with elements in reverse order",
+          "Undoing operations",
+          "Backward iteration"
+        ],
+        "correct": 1,
+        "explanation": "$reverseArray returns an array with its elements in reverse order."
+      },
+      {
+        "id": "ae_medium_39",
+        "question": "What does the $zip operator do?",
+        "options": [
+          "Compression",
+          "Transposes and merges multiple arrays",
+          "Zipping files",
+          "Combining documents"
+        ],
+        "correct": 1,
+        "explanation": "$zip transposes and merges multiple arrays element-wise into an array of arrays."
+      },
+      {
+        "id": "ae_medium_40",
+        "question": "What is the $indexOfArray operator?",
+        "options": [
+          "Creating indexes",
+          "Returns index position of value in array",
+          "Array indexing",
+          "Finding indices"
+        ],
+        "correct": 1,
+        "explanation": "$indexOfArray searches an array for a specified value and returns the index of the first occurrence."
+      },
+      {
+        "id": "ae_medium_41",
+        "question": "How does compound index field order affect performance?",
+        "options": [
+          "Order doesn't matter",
+          "Index supports queries on prefix fields efficiently",
+          "Reverse better",
+          "Only first field"
+        ],
+        "correct": 1,
+        "explanation": "Compound indexes support queries on any prefix (left-to-right). Index on {a,b,c} supports {a}, {a,b}, {a,b,c}."
+      },
+      {
+        "id": "ae_medium_42",
+        "question": "What is index selectivity?",
+        "options": [
+          "Index count",
+          "How well index narrows results - higher is better",
+          "Which indexes used",
+          "Storage size"
+        ],
+        "correct": 1,
+        "explanation": "Selectivity measures how uniquely an index distinguishes documents. High selectivity = better performance."
+      },
+      {
+        "id": "ae_medium_43",
+        "question": "What is covered query?",
+        "options": [
+          "Query with WHERE",
+          "Query satisfied entirely from index without examining documents",
+          "Query with index",
+          "Slow query"
+        ],
+        "correct": 1,
+        "explanation": "Covered queries are satisfied from index alone, significantly improving performance."
+      },
+      {
+        "id": "ae_medium_44",
+        "question": "When to use $or vs $in?",
+        "options": [
+          "Identical",
+          "$in for same field multiple values; $or for different fields",
+          "$or always faster",
+          "$in deprecated"
+        ],
+        "correct": 1,
+        "explanation": "$in optimized for single field multiple values; $or for conditions on different fields."
+      },
+      {
+        "id": "ae_medium_45",
+        "question": "How does pipeline optimize $match placement?",
+        "options": [
+          "No optimization",
+          "Early $match uses indexes and reduces documents processed",
+          "$match should be last",
+          "Order doesn't matter"
+        ],
+        "correct": 1,
+        "explanation": "Early $match can use indexes and reduces documents flowing through pipeline."
+      },
+      {
+        "id": "ae_medium_46",
+        "question": "Difference between $lookup and embedding?",
+        "options": [
+          "No difference",
+          "$lookup joins at query time; embedding stores data together",
+          "$lookup always better",
+          "Embedding deprecated"
+        ],
+        "correct": 1,
+        "explanation": "$lookup performs runtime joins; embedding stores related data within document for faster access."
+      },
+      {
+        "id": "ae_medium_47",
+        "question": "What is write concern and durability impact?",
+        "options": [
+          "Write speed",
+          "How many nodes acknowledge writes - higher = more durable",
+          "Compression",
+          "Network speed"
+        ],
+        "correct": 1,
+        "explanation": "Write concern {w:'majority'} ensures replication to majority before acknowledging for stronger durability."
+      },
+      {
+        "id": "ae_medium_48",
+        "question": "What happens in 3-node election with 1 unavailable?",
+        "options": [
+          "Cluster fails",
+          "Remaining 2 nodes can elect primary (majority exists)",
+          "Writes blocked",
+          "Manual intervention"
+        ],
+        "correct": 1,
+        "explanation": "With 3 nodes, 2 form majority and can elect new primary."
+      },
+      {
+        "id": "ae_medium_49",
+        "question": "How do TTL indexes determine deletions?",
+        "options": [
+          "Random",
+          "Based on date field value + expireAfterSeconds",
+          "Oldest first",
+          "Largest first"
+        ],
+        "correct": 1,
+        "explanation": "TTL deletes when (date field + expireAfterSeconds) passes current time. Runs every 60s."
+      },
+      {
+        "id": "ae_medium_50",
+        "question": "What is oplog and why critical?",
+        "options": [
+          "Log file",
+          "Capped collection recording all writes for replication",
+          "Optimization log",
+          "Error log"
+        ],
+        "correct": 1,
+        "explanation": "Oplog records all write operations, enabling secondaries to replicate primary's data."
+      },
+      {
+        "id": "ae_medium_51",
+        "question": "How does $unwind performance work?",
+        "options": [
+          "Not applicable",
+          "Can multiply documents significantly",
+          "Deprecated",
+          "Manual only"
+        ],
+        "correct": 1,
+        "explanation": "unwind creates doc per element, increasing processing."
+      },
+      {
+        "id": "ae_medium_52",
+        "question": "How does subset pattern work?",
+        "options": [
+          "Not applicable",
+          "Embeds frequent fields only",
+          "Deprecated",
+          "Manual only"
+        ],
+        "correct": 1,
+        "explanation": "Subset pattern embeds frequent data while keeping full data elsewhere."
+      },
+      {
+        "id": "ae_medium_53",
+        "question": "How does shard key choice work?",
+        "options": [
+          "Not applicable",
+          "Affects query targeting",
+          "Deprecated",
+          "Manual only"
+        ],
+        "correct": 1,
+        "explanation": "Queries with shard key target shards; without scatter-gather all."
+      },
+      {
+        "id": "ae_medium_54",
+        "question": "How does multikey index work?",
+        "options": [
+          "Not applicable",
+          "Indexes array elements",
+          "Deprecated",
+          "Manual only"
+        ],
+        "correct": 1,
+        "explanation": "Multikey indexes create entries for each array element."
+      },
+      {
+        "id": "ae_medium_55",
+        "question": "How does index intersection work?",
+        "options": [
+          "Not applicable",
+          "Uses multiple indexes together",
+          "Deprecated",
+          "Manual only"
+        ],
+        "correct": 1,
+        "explanation": "Intersection uses multiple indexes though compound usually better."
+      },
+      {
+        "id": "ae_medium_56",
+        "question": "How does $group memory work?",
+        "options": [
+          "Not applicable",
+          "Accumulates in memory with limits",
+          "Deprecated",
+          "Manual only"
+        ],
+        "correct": 1,
+        "explanation": "group accumulates in memory, can hit 100MB limit without allowDiskUse."
+      },
+      {
+        "id": "ae_medium_57",
+        "question": "How does operation idempotency work?",
+        "options": [
+          "Not applicable",
+          "Ensures replay safety",
+          "Deprecated",
+          "Manual only"
+        ],
+        "correct": 1,
+        "explanation": "Idempotent ops safe to replay multiple times."
+      },
+      {
+        "id": "ae_medium_58",
+        "question": "How does read concern levels work?",
+        "options": [
+          "Not applicable",
+          "local vs majority for consistency",
+          "Deprecated",
+          "Manual only"
+        ],
+        "correct": 1,
+        "explanation": "local reads latest; majority reads committed data only."
+      },
+      {
+        "id": "ae_medium_59",
+        "question": "How many read concern levels do distributed transactions support?",
+        "options": [
+          "All five levels",
+          "Only three: local, majority, and snapshot",
+          "Only two: local and majority",
+          "Only snapshot"
+        ],
+        "correct": 1,
+        "explanation": "Distributed transactions support only three read concern levels: 'local', 'majority', and 'snapshot'."
+      },
+      {
+        "id": "ae_medium_60",
+        "question": "When is the transaction-level write concern applied?",
+        "options": [
+          "On each individual write",
+          "Only at commit time",
+          "At transaction start",
+          "Never automatically"
+        ],
+        "correct": 1,
+        "explanation": "Transactions use the transaction-level write concern to commit the write operations, and at commit time, the writes are committed using the transaction-level write concern."
+      },
+      {
+        "id": "ae_medium_61",
+        "question": "What does read concern 'linearizable' ensure?",
+        "options": [
+          "Fastest reads possible",
+          "Node is still primary and data won't be rolled back",
+          "Reads from all nodes",
+          "Historical data access"
+        ],
+        "correct": 1,
+        "explanation": "Linearizable read concern ensures that a node is still the primary member at the time of the read and that the data will not be rolled back if another node is elected as new primary."
+      },
+      {
+        "id": "ae_medium_62",
+        "question": "What is the trade-off when using w: 1 write concern?",
+        "options": [
+          "Faster writes but data may be lost on primary failure",
+          "Slower writes but guaranteed durability",
+          "No trade-off",
+          "Uses more memory"
+        ],
+        "correct": 0,
+        "explanation": "w: 1 means acknowledged by the primary only, which provides faster writes but data could be lost if the primary fails before replicating."
+      }
+    ],
+    "hard": [
+      {
+        "id": "ae_hard_1",
+        "question": "How does the aggregation pipeline optimizer work?",
+        "options": [
+          "Random optimization",
+          "Reorders and combines stages for better performance",
+          "Only sorts data",
+          "Manual optimization only"
+        ],
+        "correct": 1,
+        "explanation": "The optimizer reorders pipeline stages, pushes filters early, and combines stages like $project and $match for optimal performance."
+      },
+      {
+        "id": "ae_hard_2",
+        "question": "What is the $expr operator's main use case?",
+        "options": [
+          "Expressions only",
+          "Comparing fields within same document in queries",
+          "External expressions",
+          "Export operations"
+        ],
+        "correct": 1,
+        "explanation": "$expr allows using aggregation expressions within query language for field-to-field comparisons."
+      },
+      {
+        "id": "ae_hard_3",
+        "question": "How does $lookup with uncorrelated subquery differ from correlated?",
+        "options": [
+          "No difference",
+          "Uncorrelated runs once, correlated runs per document",
+          "Uncorrelated is slower",
+          "Correlated is deprecated"
+        ],
+        "correct": 1,
+        "explanation": "Uncorrelated subqueries execute once and join results, while correlated subqueries execute for each input document."
+      },
+      {
+        "id": "ae_hard_4",
+        "question": "What is the purpose of the allowDiskUse option in aggregation?",
+        "options": [
+          "Disk storage",
+          "Allows spilling to disk when exceeding memory limit",
+          "Disk caching",
+          "Persistent storage"
+        ],
+        "correct": 1,
+        "explanation": "allowDiskUse permits aggregation operations to write data to temporary files when exceeding the 100MB memory limit."
+      },
+      {
+        "id": "ae_hard_5",
+        "question": "What is the $function operator in aggregation?",
+        "options": [
+          "Built-in functions",
+          "Custom JavaScript function execution in pipeline",
+          "Function calls",
+          "Functional programming"
+        ],
+        "correct": 1,
+        "explanation": "$function allows defining and executing custom JavaScript functions within the aggregation pipeline."
+      },
+      {
+        "id": "ae_hard_6",
+        "question": "How does the $accumulator operator work?",
+        "options": [
+          "Accumulating data",
+          "Custom accumulator with init, accumulate, and merge functions",
+          "Summing values",
+          "Collecting results"
+        ],
+        "correct": 1,
+        "explanation": "$accumulator defines custom accumulator functions with init, accumulate, and merge logic for $group stages."
+      },
+      {
+        "id": "ae_hard_7",
+        "question": "What is the $densify stage used for?",
+        "options": [
+          "Compression",
+          "Creating documents to fill gaps in time series data",
+          "Density calculation",
+          "Data densification"
+        ],
+        "correct": 1,
+        "explanation": "$densify creates new documents to fill gaps in sequence data, particularly useful for time series."
+      },
+      {
+        "id": "ae_hard_8",
+        "question": "What does the $fill stage do?",
+        "options": [
+          "Fills storage",
+          "Populates null or missing field values using interpolation",
+          "Completing data",
+          "Filling gaps"
+        ],
+        "correct": 1,
+        "explanation": "$fill populates null or missing values in fields using linear interpolation or other fill methods."
+      },
+      {
+        "id": "ae_hard_9",
+        "question": "How does the $setWindowFields stage differ from $group?",
+        "options": [
+          "No difference",
+          "$setWindowFields preserves documents while computing over windows",
+          "$group is faster",
+          "$setWindowFields only sorts"
+        ],
+        "correct": 1,
+        "explanation": "$setWindowFields computes values over a sliding window while preserving all input documents, unlike $group which collapses documents."
+      },
+      {
+        "id": "ae_hard_10",
+        "question": "What is the $getField operator for?",
+        "options": [
+          "Getting data",
+          "Accessing fields with names containing special characters",
+          "Field retrieval",
+          "Fetching fields"
+        ],
+        "correct": 1,
+        "explanation": "$getField allows accessing fields with names containing dots, dollar signs, or starting with numbers."
+      },
+      {
+        "id": "ae_hard_11",
+        "question": "What does the $setField operator enable?",
+        "options": [
+          "Setting values",
+          "Adding or updating fields with special character names",
+          "Field configuration",
+          "Value assignment"
+        ],
+        "correct": 1,
+        "explanation": "$setField adds or updates fields with names containing special characters like dots or dollar signs."
+      },
+      {
+        "id": "ae_hard_12",
+        "question": "How does the $unionWith stage work?",
+        "options": [
+          "Joins collections",
+          "Combines documents from multiple collections via union",
+          "Merges data",
+          "Unites databases"
+        ],
+        "correct": 1,
+        "explanation": "$unionWith performs a union of documents from the current and specified collections."
+      },
+      {
+        "id": "ae_hard_13",
+        "question": "What is the purpose of the $geoNear stage?",
+        "options": [
+          "Geographic search",
+          "Geospatial query with distance calculation as first stage",
+          "Nearby lookup",
+          "Location finding"
+        ],
+        "correct": 1,
+        "explanation": "$geoNear performs geospatial queries and calculates distances, must be the first stage in pipeline."
+      },
+      {
+        "id": "ae_hard_14",
+        "question": "What does the $search stage provide?",
+        "options": [
+          "Basic search",
+          "Atlas Search full-text search with relevance scoring",
+          "Query search",
+          "Data lookup"
+        ],
+        "correct": 1,
+        "explanation": "$search integrates Atlas Search for full-text search with relevance scoring and advanced search features."
+      },
+      {
+        "id": "ae_hard_15",
+        "question": "How does the $searchMeta stage differ from $search?",
+        "options": [
+          "No difference",
+          "$searchMeta returns metadata only without documents",
+          "$search is faster",
+          "$searchMeta searches metadata"
+        ],
+        "correct": 1,
+        "explanation": "$searchMeta returns search metadata like counts and facets without returning matching documents."
+      },
+      {
+        "id": "ae_hard_16",
+        "question": "What is the $vectorSearch stage for?",
+        "options": [
+          "Vector graphics",
+          "Semantic similarity search using vector embeddings",
+          "Array search",
+          "Direction search"
+        ],
+        "correct": 1,
+        "explanation": "$vectorSearch performs semantic similarity search using vector embeddings for AI/ML applications."
+      },
+      {
+        "id": "ae_hard_17",
+        "question": "What does the $documents stage do?",
+        "options": [
+          "Finds documents",
+          "Returns literal documents specified in pipeline",
+          "Document generation",
+          "Creating docs"
+        ],
+        "correct": 1,
+        "explanation": "$documents returns literal documents specified in the pipeline, useful for testing and small static datasets."
+      },
+      {
+        "id": "ae_hard_18",
+        "question": "How does MongoDB's $rand operator work?",
+        "options": [
+          "Random selection",
+          "Generates random float between 0 and 1",
+          "Randomization",
+          "Arbitrary values"
+        ],
+        "correct": 1,
+        "explanation": "$rand generates a random floating-point number between 0 and 1 for each document."
+      },
+      {
+        "id": "ae_hard_19",
+        "question": "What is the $sampleRate operator?",
+        "options": [
+          "Sampling data",
+          "Randomly filters documents based on probability",
+          "Rate limiting",
+          "Sample collection"
+        ],
+        "correct": 1,
+        "explanation": "$sampleRate randomly selects documents based on a specified probability rate between 0 and 1."
+      },
+      {
+        "id": "ae_hard_20",
+        "question": "What does the $planCacheStats stage reveal?",
+        "options": [
+          "Planning statistics",
+          "Query plan cache contents and usage statistics",
+          "Cache size",
+          "Performance stats"
+        ],
+        "correct": 1,
+        "explanation": "$planCacheStats returns information about cached query plans including usage statistics and plans."
+      },
+      {
+        "id": "ae_hard_21",
+        "question": "How does the $listSessions stage work?",
+        "options": [
+          "Lists users",
+          "Returns active and recent sessions on the server",
+          "Session management",
+          "Connection listing"
+        ],
+        "correct": 1,
+        "explanation": "$listSessions returns information about active and recent sessions for session management."
+      },
+      {
+        "id": "ae_hard_22",
+        "question": "What is the $collStats stage used for?",
+        "options": [
+          "Collection statistics",
+          "Returns detailed collection statistics and storage info",
+          "Counting docs",
+          "Collection info"
+        ],
+        "correct": 1,
+        "explanation": "$collStats returns detailed statistics about a collection including size, indexes, and storage details."
+      },
+      {
+        "id": "ae_hard_23",
+        "question": "What does the $indexStats stage provide?",
+        "options": [
+          "Index creation",
+          "Statistics about index usage and operations",
+          "Index listing",
+          "Index performance"
+        ],
+        "correct": 1,
+        "explanation": "$indexStats returns statistics about index usage including operation counts and access patterns."
+      },
+      {
+        "id": "ae_hard_24",
+        "question": "How does the $changeStream stage work?",
+        "options": [
+          "Changes collections",
+          "Opens change stream cursor for real-time notifications",
+          "Modifies streams",
+          "Stream processing"
+        ],
+        "correct": 1,
+        "explanation": "$changeStream opens a change stream on a collection to watch for real-time data changes."
+      },
+      {
+        "id": "ae_hard_25",
+        "question": "What is the $changeStreamSplitLargeEvent stage?",
+        "options": [
+          "Splitting events",
+          "Splits large change events into smaller fragments",
+          "Event handling",
+          "Large document processing"
+        ],
+        "correct": 1,
+        "explanation": "$changeStreamSplitLargeEvent splits change events exceeding 16MB into smaller manageable fragments."
+      },
+      {
+        "id": "ae_hard_26",
+        "question": "What does the $listSampledQueries stage return?",
+        "options": [
+          "Query samples",
+          "Sampled slow queries for query analysis",
+          "Query history",
+          "Sample data"
+        ],
+        "correct": 1,
+        "explanation": "$listSampledQueries returns sampled queries collected for query performance analysis."
+      },
+      {
+        "id": "ae_hard_27",
+        "question": "How does MongoDB handle pipeline stages with $out or $merge?",
+        "options": [
+          "Ignores them",
+          "Executes them last and writes results to collection",
+          "Runs first",
+          "Skips writing"
+        ],
+        "correct": 1,
+        "explanation": "$out and $merge must be the last stages in a pipeline and write aggregation results to a collection."
+      },
+      {
+        "id": "ae_hard_28",
+        "question": "What is the difference between $count stage and count() method?",
+        "options": [
+          "No difference",
+          "$count is pipeline stage returning document, count() returns number",
+          "count() is deprecated",
+          "$count is faster"
+        ],
+        "correct": 1,
+        "explanation": "$count is an aggregation stage returning a document with count, while count() method returns just the number."
+      },
+      {
+        "id": "ae_hard_29",
+        "question": "What does the $bsonSize operator calculate?",
+        "options": [
+          "Storage size",
+          "BSON encoded size of document in bytes",
+          "Document count",
+          "Field size"
+        ],
+        "correct": 1,
+        "explanation": "$bsonSize returns the size in bytes of a document when encoded as BSON."
+      },
+      {
+        "id": "ae_hard_30",
+        "question": "How does the $convert operator work?",
+        "options": [
+          "Converts databases",
+          "Converts value to specified BSON type with error handling",
+          "Type casting",
+          "Data conversion"
+        ],
+        "correct": 1,
+        "explanation": "$convert converts a value to a specified BSON type with configurable error handling for invalid conversions."
+      },
+      {
+        "id": "ae_hard_31",
+        "question": "What is the $regexFind operator?",
+        "options": [
+          "Finding regex",
+          "Returns information about first regex match in string",
+          "Pattern matching",
+          "Search operation"
+        ],
+        "correct": 1,
+        "explanation": "$regexFind searches a string with a regex pattern and returns match information including position and captures."
+      },
+      {
+        "id": "ae_hard_32",
+        "question": "What does the $regexFindAll operator return?",
+        "options": [
+          "All patterns",
+          "Array of all regex matches in string",
+          "Multiple searches",
+          "Full matches"
+        ],
+        "correct": 1,
+        "explanation": "$regexFindAll returns an array containing information about all regex matches in a string."
+      },
+      {
+        "id": "ae_hard_33",
+        "question": "How does the $trim operator handle whitespace?",
+        "options": [
+          "Removes all spaces",
+          "Removes leading and trailing whitespace or specified chars",
+          "Trims length",
+          "Cleans strings"
+        ],
+        "correct": 1,
+        "explanation": "$trim removes leading and trailing whitespace or specified characters from a string."
+      },
+      {
+        "id": "ae_hard_34",
+        "question": "What is the $split operator?",
+        "options": [
+          "Divides numbers",
+          "Splits string into array based on delimiter",
+          "Separates data",
+          "Breaks documents"
+        ],
+        "correct": 1,
+        "explanation": "$split divides a string into an array of substrings based on a specified delimiter."
+      },
+      {
+        "id": "ae_hard_35",
+        "question": "What does the $strLenBytes operator measure?",
+        "options": [
+          "String length",
+          "Number of UTF-8 encoded bytes in string",
+          "Character count",
+          "Size in memory"
+        ],
+        "correct": 1,
+        "explanation": "$strLenBytes returns the number of UTF-8 encoded bytes in a string, not character count."
+      },
+      {
+        "id": "ae_hard_36",
+        "question": "How does $strLenCP differ from $strLenBytes?",
+        "options": [
+          "No difference",
+          "$strLenCP counts Unicode code points, not bytes",
+          "$strLenBytes is faster",
+          "$strLenCP is deprecated"
+        ],
+        "correct": 1,
+        "explanation": "$strLenCP counts the number of Unicode code points (characters), while $strLenBytes counts bytes."
+      },
+      {
+        "id": "ae_hard_37",
+        "question": "What is the $dateTrunc operator?",
+        "options": [
+          "Deletes dates",
+          "Truncates date to specified unit for bucketing",
+          "Shortens dates",
+          "Removes time"
+        ],
+        "correct": 1,
+        "explanation": "$dateTrunc truncates a date to a specified unit (year, month, day, etc.) for time-based bucketing."
+      },
+      {
+        "id": "ae_hard_38",
+        "question": "What does the $dateAdd operator do?",
+        "options": [
+          "Adds dates",
+          "Adds time unit amount to date",
+          "Combines dates",
+          "Increments dates"
+        ],
+        "correct": 1,
+        "explanation": "$dateAdd adds a specified amount of time units (days, hours, etc.) to a date."
+      },
+      {
+        "id": "ae_hard_39",
+        "question": "How does the $dateDiff operator work?",
+        "options": [
+          "Compares dates",
+          "Returns difference between two dates in specified unit",
+          "Subtracts dates",
+          "Date calculation"
+        ],
+        "correct": 1,
+        "explanation": "$dateDiff calculates the difference between two dates and returns it in a specified time unit."
+      },
+      {
+        "id": "ae_hard_40",
+        "question": "What is the $tsSecond operator for?",
+        "options": [
+          "Timestamp conversion",
+          "Returns seconds from timestamp value",
+          "Time extraction",
+          "Second calculation"
+        ],
+        "correct": 1,
+        "explanation": "$tsSecond returns the seconds portion of a timestamp BSON type value."
+      },
+      {
+        "id": "ae_hard_41",
+        "question": "How does ESR rule optimize compound indexes?",
+        "options": [
+          "Outdated",
+          "Order: Equality first, Sort next, Range last",
+          "Always sort first",
+          "Range first"
+        ],
+        "correct": 1,
+        "explanation": "ESR rule: Equality (highest selectivity), Sort (index-only sort), Range (bounds scan)."
+      },
+      {
+        "id": "ae_hard_42",
+        "question": "What is write conflict in MongoDB?",
+        "options": [
+          "Network errors",
+          "Concurrent operations modify same doc in transactions, triggering retry",
+          "Disk errors",
+          "Permission errors"
+        ],
+        "correct": 1,
+        "explanation": "Write conflicts occur when concurrent transaction ops attempt same document modification."
+      },
+      {
+        "id": "ae_hard_43",
+        "question": "How does WiredTiger implement MVCC?",
+        "options": [
+          "No MVCC",
+          "Multiple document versions via snapshots for concurrent access",
+          "Document locking",
+          "Through replication"
+        ],
+        "correct": 1,
+        "explanation": "WiredTiger uses MVCC with snapshot isolation, maintaining multiple versions for concurrent access."
+      },
+      {
+        "id": "ae_hard_44",
+        "question": "What is bucket pattern and when to use?",
+        "options": [
+          "File organization",
+          "Grouping time-series into time bucket documents to reduce count",
+          "Backup strategy",
+          "Sharding"
+        ],
+        "correct": 1,
+        "explanation": "Bucket pattern groups time-series measurements into time-period documents for high-volume data."
+      },
+      {
+        "id": "ae_hard_45",
+        "question": "How does pipeline reorder stages?",
+        "options": [
+          "Never reorders",
+          "Pushes $match/$limit before $project/$unwind to reduce data early",
+          "Always in order",
+          "Random"
+        ],
+        "correct": 1,
+        "explanation": "Optimizer moves filtering ($match) and limiting ($limit) earlier to reduce data processed."
+      },
+      {
+        "id": "ae_hard_46",
+        "question": "Impact of $lookup with large collections?",
+        "options": [
+          "No impact",
+          "O(n*m) operation without indexes, causing degradation",
+          "Always fast",
+          "Only affects writes"
+        ],
+        "correct": 1,
+        "explanation": "$lookup can be expensive on large collections (nested loop join). Indexes on foreign field help."
+      },
+      {
+        "id": "ae_hard_47",
+        "question": "How do partial vs sparse indexes differ?",
+        "options": [
+          "Identical",
+          "Partial uses filter expressions; sparse checks field existence only",
+          "Sparse newer",
+          "Partial deprecated"
+        ],
+        "correct": 1,
+        "explanation": "Sparse includes docs where field exists; partial uses arbitrary filter expressions."
+      },
+      {
+        "id": "ae_hard_48",
+        "question": "What happens to secondary reads during election?",
+        "options": [
+          "All reads fail",
+          "Reads continue from secondaries if preference allows; writes pause",
+          "Everything stops",
+          "Reads switch to primary"
+        ],
+        "correct": 1,
+        "explanation": "During elections (5-15s), writes pause but secondary reads can continue per read preference."
+      },
+      {
+        "id": "ae_hard_49",
+        "question": "How does index cardinality affect performance?",
+        "options": [
+          "No relationship",
+          "High cardinality (many unique values) improves selectivity and performance",
+          "Low better",
+          "Only storage"
+        ],
+        "correct": 1,
+        "explanation": "High cardinality provides better selectivity, narrowing results more effectively."
+      },
+      {
+        "id": "ae_hard_50",
+        "question": "What is attribute pattern?",
+        "options": [
+          "Listing attributes",
+          "Transforming many similar fields into key-value pair array",
+          "Deleting attributes",
+          "Encrypting"
+        ],
+        "correct": 1,
+        "explanation": "Attribute pattern converts similar fields (size_S, size_M) into [{key,value}] array for indexing dynamic fields."
+      },
+      {
+        "id": "ae_hard_51",
+        "question": "How does shard key monotonicity work in MongoDB?",
+        "options": [
+          "Not supported",
+          "Monotonic keys cause hot spots; random distributes",
+          "Third-party only",
+          "Deprecated"
+        ],
+        "correct": 1,
+        "explanation": "Monotonic keys (timestamps) concentrate writes; hashed/random distributes evenly."
+      },
+      {
+        "id": "ae_hard_52",
+        "question": "How does computed pattern work in MongoDB?",
+        "options": [
+          "Not supported",
+          "Pre-computes expensive calculations",
+          "Third-party only",
+          "Deprecated"
+        ],
+        "correct": 1,
+        "explanation": "Computed pattern pre-calculates aggregates to avoid runtime computation."
+      },
+      {
+        "id": "ae_hard_53",
+        "question": "How does $facet internals work in MongoDB?",
+        "options": [
+          "Not supported",
+          "Runs sub-pipelines in parallel on same input",
+          "Third-party only",
+          "Deprecated"
+        ],
+        "correct": 1,
+        "explanation": "facet processes multiple pipelines in parallel returning separate fields."
+      },
+      {
+        "id": "ae_hard_54",
+        "question": "How does schema versioning work in MongoDB?",
+        "options": [
+          "Not supported",
+          "Version field for schema evolution",
+          "Third-party only",
+          "Deprecated"
+        ],
+        "correct": 1,
+        "explanation": "Schema versioning adds version field for handling evolution during migrations."
+      },
+      {
+        "id": "ae_hard_55",
+        "question": "How does query planner work in MongoDB?",
+        "options": [
+          "Not supported",
+          "Runs candidate plans in parallel, caches winner",
+          "Third-party only",
+          "Deprecated"
+        ],
+        "correct": 1,
+        "explanation": "Query planner tests candidate index plans in parallel and caches fastest."
+      },
+      {
+        "id": "ae_hard_56",
+        "question": "How does outlier pattern work in MongoDB?",
+        "options": [
+          "Not supported",
+          "Handles exceptions by storing overflow separately",
+          "Third-party only",
+          "Deprecated"
+        ],
+        "correct": 1,
+        "explanation": "Outlier pattern handles exceptional cases by storing overflow data separately."
+      },
+      {
+        "id": "ae_hard_57",
+        "question": "How does cascading deletes work in MongoDB?",
+        "options": [
+          "Not supported",
+          "No automatic cascade - use change streams",
+          "Third-party only",
+          "Deprecated"
+        ],
+        "correct": 1,
+        "explanation": "No built-in cascading; implement via change streams or application logic."
+      },
+      {
+        "id": "ae_hard_58",
+        "question": "How does extended reference pattern work in MongoDB?",
+        "options": [
+          "Not supported",
+          "Duplicates frequent fields to avoid $lookup",
+          "Third-party only",
+          "Deprecated"
+        ],
+        "correct": 1,
+        "explanation": "Extended reference duplicates frequently accessed fields from referenced docs."
+      },
+      {
+        "id": "ae_hard_59",
+        "question": "What combination of read and write concern provides the strongest consistency guarantee for transactions?",
+        "options": [
+          "local read concern with w: 1",
+          "majority read concern with w: 1",
+          "snapshot read concern with w: 'majority'",
+          "local read concern with w: 'majority'"
+        ],
+        "correct": 2,
+        "explanation": "Read concern 'snapshot' returns data from a snapshot of majority committed data when the transaction commits with write concern 'majority', providing the strongest consistency guarantee."
+      },
+      {
+        "id": "ae_hard_60",
+        "question": "Why can't linearizable read concern be used in multi-document transactions?",
+        "options": [
+          "It's too slow",
+          "It requires checking primary status which conflicts with transaction isolation",
+          "It uses too much memory",
+          "It's deprecated"
+        ],
+        "correct": 1,
+        "explanation": "Linearizable read concern requires verifying the node is still primary at read time, which would break transaction snapshot isolation guarantees."
+      },
+      {
+        "id": "ae_hard_61",
+        "question": "What happens to transaction writes if write concern 'majority' cannot be satisfied within wtimeout?",
+        "options": [
+          "Transaction auto-commits with w: 1",
+          "Transaction aborts and rolls back",
+          "Transaction waits indefinitely",
+          "Transaction commits but logs a warning"
+        ],
+        "correct": 1,
+        "explanation": "If the write concern cannot be satisfied within the specified wtimeout, the transaction aborts and all changes are rolled back."
+      }
+    ]
+  }
+}
